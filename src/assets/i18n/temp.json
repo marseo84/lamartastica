@@ -1,0 +1,50 @@
+{
+  "HEADER": "About Me",
+  "INTRO": "Hi, I'm Marta, a passionate designer specializing in...",
+  "HISTORY": "With over 10 years of experience, I have worked with clients from...",
+
+  "HERO": {
+    "TITLE": "Welcome to La Martastica",
+    "SUBTITLE": "Creative solutions for your brand",
+    "CTA": "Explore My Work"
+  },
+  "FEATURES": {
+    "TITLE": "Why Choose Me?",
+    "ITEMS": ["Unique Designs", "Attention to Detail", "Timely Delivery"]
+  },
+
+  "header": {
+    "logo": "path/to/logo.png",
+    "navLinks": [
+      { "text": "Home", "url": "/" },
+      { "text": "About", "url": "/about" },
+      { "text": "Contact", "url": "/contact" }
+    ]
+  },
+  "hero": {
+    "headline": "Welcome to Our Website",
+    "subheadline": "Your one-stop solution for [your product/service]",
+    "imageUrl": "path/to/hero-image.jpg",
+    "cta": {
+      "text": "Get Started",
+      "url": "/signup"
+    }
+  },
+  "body": {
+    "introduction": "A brief introduction to the page's topic.",
+    "features": [
+      { "title": "Feature 1", "description": "Description of Feature 1" },
+      { "title": "Feature 2", "description": "Description of Feature 2" }
+    ],
+    "testimonials": [{ "name": "John Doe", "testimonial": "Great product!" }],
+    "faqs": [{ "question": "FAQ 1", "answer": "Answer to FAQ 1" }]
+  },
+  "footer": {
+    "copyright": "© 2023 Your Company",
+    "privacyPolicy": "path/to/privacy-policy.html",
+    "termsOfService": "path/to/terms-of-service.html",
+    "socialMedia": [
+      { "icon": "fa-facebook", "url": "https://facebook.com/yourcompany" }
+    ]
+  }
+}

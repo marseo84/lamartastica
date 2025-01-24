@@ -1,0 +1,52 @@
+<div *ngIf="aboutData">
+  <div class="hero-wrapper">
+    <h1 class="title">{{ aboutData.hero.TITLE }}</h1>
+    <div class="row">
+      <div class="column">
+        <div class="profile-image-wrapper">
+          <img
+            src="../../assets/images/profile-man.jpg"
+            class="profile-image"
+            alt="Marta Tendero aka la Martastica"
+          />
+        </div>
+      </div>
+      <div class="column">
+        <div class="subtitle">{{ aboutData.hero.SUBTITLE }}</div>
+        <div class="page-intro intro-wrapper">
+          @for (par of aboutData.hero.INTRO; track par) {
+          <div>{{ par }}</div>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- page body -->
+  <div class="page-body-wrapper">
+    <div *ngFor="let section of aboutData.sections">
+      <h2>{{ section.heading }}</h2>
+      <div *ngFor="let paragraph of section.text">
+        <p>{{ paragraph }}</p>
+      </div>
+      <div *ngIf="section.list">
+        <h4>{{ section.list.HEADING }}</h4>
+        <ul>
+          <li *ngFor="let item of section.list.ITEMS">
+            <span>{{ item.KEY }}</span
+            >: {{ item.DESCRIPTION }}
+          </li>
+        </ul>
+      </div>
+      <div *ngIf="section.quote">
+        <blockquote>
+          <p>{{ section.quote.QUOTE_TEXT }}</p>
+          <footer>
+            {{ section.quote.QUOTE_AUTHOR }} -
+            {{ section.quote.QUOTE_AUTHOR_ABOUT }}
+          </footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</div>

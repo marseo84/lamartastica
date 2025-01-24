@@ -1,0 +1,10 @@
+.language-selector {
+  cursor: pointer;
+  margin: 0.3em;
+  padding: 0.2em;
+  color: var(--secondary-text-color);
+}
+
+.active {
+  border: 1px solid var(--secondary-text-color);
+}

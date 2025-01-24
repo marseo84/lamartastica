@@ -1,0 +1,21 @@
+{
+  "title": "Graphic Design",
+  "description": "Our graphic design services cover everything from branding to digital assets.",
+  "subcategories": [
+    {
+      "name": "Brand Identity",
+      "slug": "brand-identity",
+      "description": "Creating consistent and memorable brand visuals."
+    },
+    {
+      "name": "Social Media Assets",
+      "slug": "social-media-assets",
+      "description": "Designs optimized for social media platforms."
+    },
+    {
+      "name": "Print Design",
+      "slug": "print-design",
+      "description": "Beautiful designs for print materials like brochures and flyers."
+    }
+  ]
+}

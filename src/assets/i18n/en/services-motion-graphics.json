@@ -1,0 +1,21 @@
+{
+  "title": "Motion Graphics",
+  "description": "Our motion graphics services bring your ideas to life with dynamic animations.",
+  "subcategories": [
+    {
+      "name": "Logo Animation",
+      "slug": "logo-animation",
+      "description": "Animated logos that leave a lasting impression."
+    },
+    {
+      "name": "Giphographics",
+      "slug": "giphographics",
+      "description": "Fun and engaging GIF animations."
+    },
+    {
+      "name": "Explainer Videos",
+      "slug": "explainer-videos",
+      "description": "Informative videos to explain your product or service."
+    }
+  ]
+}

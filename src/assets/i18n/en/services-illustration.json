@@ -1,0 +1,21 @@
+{
+  "title": "Illustration",
+  "description": "Custom illustrations that bring your ideas to life.",
+  "subcategories": [
+    {
+      "name": "Character Design",
+      "slug": "character-design",
+      "description": "Unique and expressive character illustrations."
+    },
+    {
+      "name": "Book Illustrations",
+      "slug": "book-illustrations",
+      "description": "Detailed illustrations for books and publications."
+    },
+    {
+      "name": "Custom Artwork",
+      "slug": "custom-artwork",
+      "description": "Personalized artwork for your specific needs."
+    }
+  ]
+}

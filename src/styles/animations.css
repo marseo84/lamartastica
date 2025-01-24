@@ -1,0 +1,81 @@
+/* homepage - titles */
+.site-identity-wrapper {
+  animation-delay: 1.5s;
+}
+
+.titles-wrapper {
+  animation-delay: 2s;
+}
+
+.hero-image-wrapper {
+  animation-delay: 2.5s;
+}
+
+/* homepage - cta */
+/* .cta-card { */
+  /* animation: fade-slide-up 0.5s ease-out forwards; */
+  /* opacity: 0; */
+/* } */
+
+.cta-card-1 {
+  /* animation-delay: 1s; */
+  animation: fade-slide-up 0.5s 1s ease-out forwards;
+  /* pulse 4s 3s ease-out infinite; */
+
+}
+
+.cta-card-2 {
+  /* animation-delay: 1.6s; */
+  animation: fade-slide-up 0.5s 1.6s ease-out forwards;
+  /* pulse 4s 5s ease-out infinite; */
+
+}
+
+.cta-card-3 {
+  /* animation-delay: 2.1s; */
+  animation: fade-slide-up 0.5s 2.1s ease-out forwards;
+  /* pulse 4s 7s ease-out infinite; */
+
+}
+
+.animate-pop-in {
+  animation: pop-in 0.6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
+  opacity: 0;
+}
+
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacityL 1;
+    transform: none;
+  }
+  50% {
+    opacity: .8;
+    transform: scale(.8);
+  }
+  100%{
+    opacity: 1;
+    transform: none;
+  }
+}

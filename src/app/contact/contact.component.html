@@ -1,0 +1,112 @@
+<div class="contact-container">
+  <h1 class="title">Contact</h1>
+  <div class="text-center">
+    <p>Reach out to me using the form below.</p>
+    <p>I'll get back to you rather sooner than later.</p>
+  </div>
+  <!-- Vimeo Video Player -->
+  <!-- <app-vimeo-player
+    [videoId]="'1036233729'"
+    [autoplay]="true"
+    [loop]="true"
+    [muted]="false"
+  ></app-vimeo-player> -->
+
+  <form
+    action="https://formspree.io/f/meoqbkdn"
+    method="POST"
+    [formGroup]="contactForm"
+    (ngSubmit)="onSubmit()"
+    class="contact-form border border-primary-text"
+  >
+    <div class="form-section">
+      <label class="form-label" for="name">Name:</label>
+      <input
+        id="name"
+        formControlName="name"
+        name="name"
+        type="name"
+        class="form-input"
+        required
+      />
+      <div
+        *ngIf="
+          contactForm.get('name')?.invalid && contactForm.get('name')?.touched
+        "
+        class="form-error"
+      >
+        Name is required.
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="form-label" for="email">Email:</label>
+      <input
+        id="email"
+        formControlName="email"
+        name="email"
+        type="email"
+        class="form-input"
+        required
+      />
+      <div
+        *ngIf="
+          contactForm.get('email')?.invalid && contactForm.get('email')?.touched
+        "
+        class="form-error"
+      >
+        A valid email is required.
+      </div>
+    </div>
+
+    <div class="form-section">
+      <label class="form-label" for="message">Message:</label>
+      <textarea
+        id="message"
+        formControlName="message"
+        name="message"
+        class="form-input"
+        required
+        rows="4"
+      ></textarea>
+      <div
+        *ngIf="
+          contactForm.get('message')?.invalid &&
+          contactForm.get('message')?.touched
+        "
+        class="form-error"
+      >
+        Message is required.
+      </div>
+    </div>
+
+    <!-- redirect to thank you page -->
+    <!-- <input
+      type="hidden"
+      name="_redirect"
+      value="https://lamartastica.com/thank-you"
+    /> -->
+
+    <div class="submit-btn-wrapper">
+      <button
+        type="submit"
+        class="form-btn-submit"
+        [disabled]="contactForm.invalid"
+      >
+        Send
+      </button>
+    </div>
+  </form>
+
+  <div class="text-center">
+    <p>
+      email:
+      <a href="mailto:lamartastica@gmail.com" class="contact-item"
+        >lamartastica&#64;gmail.com</a
+      >
+    </p>
+    <p>
+      tel.: <a href="tel:+436765014830" class="contact-item">+43 676 5014830</a>
+    </p>
+  </div>
+</div>

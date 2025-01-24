@@ -1,1 +1,124 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
+
+/* TYPOGRAPHY */
+@layer base {
+  body {
+    @apply font-sans leading-relaxed text-gray-200 bg-gradient-to-b from-primary via-secondary to-quaternary;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-bold mb-4;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl lg:text-4xl;
+  }
+
+  a {
+    @apply text-link hover:text-link-hover active:text-link-active;
+    transition: all 0.3s ease 0.05s;
+  }
+
+  /* .cta-button {
+    @apply bg-primary text-white py-3 px-6 rounded-lg shadow-md hover:bg-primary-bg;
+  } */
+}
+
+/* LAYOUT HELPERS */
+@layer components {
+  .titles-wrapper {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  .content {
+    @apply px-4 md:px-8;
+  }
+
+  .row {
+    @apply flex flex-wrap gap-4 mb-8 border border-blue-500;
+  }
+
+  .column {
+    @apply flex-1 basis-1/2;
+  }
+}
+
+/* HERO SECTION */
+@layer components {
+  .hero-section {
+    @apply w-full;
+  }
+
+  .hero-image-wrapper {
+    @apply flex justify-center w-full;
+    /* max-height: 80dvh; */
+    max-height: 80dvh;
+
+    /* @screen md {
+      max-height: 50dvh;
+    } */
+
+    /* @screen lg {
+      max-height: 40dvh;
+    } */
+  }
+
+  .hero-image {
+    @apply shadow-2xl rounded-lg h-full w-auto;
+  }
+
+  .hero-list {
+    @apply my-8;
+  }
+
+  .no-bullets {
+    @apply list-none m-0 p-0;
+  }
+}
+
+/* CARD COMPONENTS */
+@layer components {
+  .card-section {
+    @apply flex justify-center items-center flex-col  gap-12;
+  }
+
+  .card {
+    @apply flex justify-center items-center p-6 mb-8 rounded-md text-2xl w-72;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    /* box-shadow: 1px 1px 0px 0px rgba(255, 255, 255, 0.8); */
+    transition: all 0.3s ease 0.05s;
+  }
+
+  .card:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 0.8);
+  }
+
+  .card:hover a {
+    @apply hover:text-link-hover;
+  }
+}
+
+/* SWIPER COMPONENTS */
+@layer components {
+  .swiper-container {
+    @apply max-h-[80dvh] p-0;
+  }
+
+  .swiper-slide {
+    @apply h-full m-0;
+  }
+}

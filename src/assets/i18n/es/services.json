@@ -1,0 +1,21 @@
+{
+  "title": "Our Services",
+  "description": "We offer a wide range of creative services to meet your needs.",
+  "categories": [
+    {
+      "name": "Motion Graphics",
+      "slug": "motion-graphics",
+      "description": "Creative and animated video designs."
+    },
+    {
+      "name": "Graphic Design",
+      "slug": "graphic-design",
+      "description": "Eye-catching designs for digital and print."
+    },
+    {
+      "name": "Illustration",
+      "slug": "illustration",
+      "description": "Custom illustrations tailored to your vision."
+    }
+  ]
+}

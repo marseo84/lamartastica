@@ -1,0 +1,68 @@
+LA MARTASTICA - ANGULAR
+
+
+
+
+
+
+
+
+
+
+
+
+HTTMP CLIENT MODULE -> provideHttpClient()
+https://stackoverflow.com/questions/78430636/httpclientmodule-is-deprecated-in-angular-18-whats-the-replacement
+
+- read on every module
+
+
+
+
+
+
+
+
+
+services - move
+
+
+
+
+styles
+	assets/styles - main.css
+
+
+IMPROVEMENTS
+
+State Management: 
+		As your app grows, you might consider using a service or store (like NgRx) to manage state more efficiently.
+
+Lazy Loading: 
+		For better performance, especially with larger apps, consider using lazy loading for feature modules (like projects and services).
+
+API Integration: 
+		Replace static data with real API calls if you have a backend to serve project or service data.
+
+SEO: 
+		For improved SEO, consider setting up Angular Universal for SSR (Server-Side Rendering) to make your app more crawlable by search engines.
+
+
+
+
+styleUrl typo:
+							The property in the @Component decorator should be styleUrls (plural), not styleUrl.
+
+getProjectsByCategory method:
+							You're using this function to filter projects based on category. It’s fine for a static dataset, but for dynamic data (e.g., fetched from a backend), the filtering should be done either in the DataService or directly through an API call.
+
+Commented-out code:
+							Clean up the commented-out this.dataService.getProjects() call if you don’t plan to use it.
+
+Dynamic Data:
+						Ensure that this.dataService.getProjects(category) correctly fetches the filtered data from the backend or service. You might need to adapt the API response handling.
+
+
+
+
+lazy loading

@@ -1,0 +1,70 @@
+{
+  "HERO": {
+    "TITLE": "About Me",
+    "SUBTITLE": "Hi there, my name is Marta",
+    "INTRO": ["I do magic", "I make pictures", "and I make them move"]
+  },
+  "BODY": {
+    "SECTIONS": [
+      {
+        "HEADING": "Section 1 Heading",
+        "TEXT": ["Paragraph 1 of Section 1", "Paragraph 2 of Section 1"]
+      },
+      {
+        "HEADING": "Section 2 Heading",
+        "TEXT": ["Paragraph 1 of Section 2", "Paragraph 2 of Section 2"]
+      },
+      {
+        "HEADING": "Section 3 Heading",
+        "LIST": {
+          "HEADING": "Key Points",
+          "ITEMS": [
+            {
+              "KEY": "Key Point 1",
+              "DESCRIPTION": "Description of Key Point 1"
+            },
+            {
+              "KEY": "Key Point 2",
+              "DESCRIPTION": "Description of Key Point 2"
+            },
+            {
+              "KEY": "Key Point 3",
+              "DESCRIPTION": "Description of Key Point 3"
+            }
+          ]
+        }
+      },
+      {
+        "HEADING": "Section 4 Heading",
+        "TEXT": ["Paragraph 1 of Section 4", "Paragraph 2 of Section 4"]
+      },
+      {
+        "HEADING": "Section 5 Heading",
+        "TEXT": ["Paragraph 1 of Section 5", "Paragraph 2 of Section 5"]
+      },
+      {
+        "HEADING": "Section 6 Heading",
+        "TEXT": ["Paragraph 1 of Section 6", "Paragraph 2 of Section 6"]
+      },
+      {
+        "HEADING": "Section 4 Heading",
+        "QUOTE": {
+          "QUOTE_TEXT": "This is a quote text.",
+          "QUOTE_AUTHOR": "Quote Author Name",
+          "QUOTE_AUTHOR_ABOUT": "Quote Author's About Text"
+        }
+      }
+    ],
+    "FEATURES": [
+      { "TITLE": "Feature 1", "DESCRIPTION": "Description of Feature 1" },
+      { "TITLE": "Feature 2", "DESCRIPTION": "Description of Feature 2" }
+    ],
+    "testimonials": [{ "name": "John Doe", "testimonial": "Great product!" }],
+    "faqs": [{ "question": "FAQ 1", "answer": "Answer to FAQ 1" }]
+  },
+  "CTA": {
+    "TEXT": "Get Started",
+    "BUTTON": "Get Started",
+    "URL": "/signup"
+  }
+}

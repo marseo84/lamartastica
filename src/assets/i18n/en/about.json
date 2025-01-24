@@ -1,0 +1,111 @@
+{
+  "HERO": {
+    "TITLE": "About Me",
+    "SUBTITLE": "Hi there, my name is Marta",
+    "INTRO": [
+      " a passionate motion graphic designer,",
+      "graphic designer",
+      ", and illustrator."
+    ]
+  },
+  "BODY": {
+    "SECTIONS": [
+      {
+        "HEADING": " I am dedicated to crafting visually compelling stories.",
+        "TEXT": [
+          "With a background in [Your Educational Background, e.g., Visual Arts and Graphic Design] and [X] years of professional experience, I thrive on blending creativity with strategy to bring ideas to life."
+        ]
+      },
+      {
+        "HEADING": "My Journey",
+        "TEXT": [
+          "From sketching in the margins of my school notebooks to animating dynamic visuals that capture attention, my journey has always been fueled by a love for design. Over the years, I’ve had the privilege of working on diverse projects—from branding to animated videos—where I’ve honed my ability to transform concepts into eye-catching visuals that resonate with audiences.",
+          "Paragraph 2 of Section 2"
+        ]
+      },
+      {
+        "HEADING": "My Design Philosophy",
+        "TEXT": [
+          "At the heart of my creative process lies a simple yet powerful belief: design should tell a story. Whether through motion graphics that mesmerize or illustrations that evoke emotion, I strive to create designs that connect deeply with people. My approach combines meticulous attention to detail, a flair for bold aesthetics, and a commitment to delivering designs that align with my clients' visions and goals.",
+          "Paragraph 2 of Section 3"
+        ]
+      },
+      {
+        "HEADING": "",
+        "LIST": {
+          "HEADING": "I specialize in:",
+          "ITEMS": [
+            {
+              "KEY": "Motion Graphics:",
+              "DESCRIPTION": "From explainer videos to social media animations, I create motion graphics that captivate and engage."
+            },
+            {
+              "KEY": "Illustration",
+              "DESCRIPTION": "Custom illustrations that add a personal touch to any project."
+            },
+            {
+              "KEY": "Graphic Design:",
+              "DESCRIPTION": "Branding, typography, and visual identities tailored to tell a brand’s story."
+            }
+          ]
+        }
+      },
+      {
+        "HEADING": "Skills and Tools",
+        "LIST": {
+          "HEADING": "I specialize in:",
+          "ITEMS": [
+            {
+              "KEY": "Software Proficiency:",
+              "DESCRIPTION": "Adobe After Effects, Illustrator, Photoshop, Premiere Pro, and Figma."
+            },
+            {
+              "KEY": "Specialized Skills:",
+              "DESCRIPTION": "Motion design, digital illustration, typography, and brand identity creation."
+            },
+            {
+              "KEY": "Certifications:",
+              "DESCRIPTION": "[Add relevant certifications, if any, e.g., Adobe Certified Expert in After Effects]."
+            }
+          ]
+        }
+      },
+      {
+        "HEADING": "Collaboration & Client Focus",
+        "TEXT": [
+          "I pride myself on being a collaborative partner to my clients, understanding their unique needs and delivering designs that exceed expectations. From the initial brainstorming session to final delivery, I ensure open communication, attention to detail, and timely project completion—always staying within budget.",
+          "Paragraph 2 of Section 5"
+        ]
+      },
+      {
+        "HEADING": "",
+        "SUBHEADING": "Client Feedback:",
+        "QUOTE": {
+          "QUOTE_TEXT": "Working with [Your Name] was a seamless experience. Their creativity, professionalism, and ability to bring our vision to life were unmatched.",
+          "QUOTE_AUTHOR": "Paco Garcia",
+          "QUOTE_AUTHOR_ABOUT": "CEO of the Universe"
+        }
+      },
+      {
+        "HEADING": "Section 5 Heading",
+        "TEXT": ["Paragraph 1 of Section 5", "Paragraph 2 of Section 5"]
+      },
+      {
+        "HEADING": "Section 6 Heading",
+        "TEXT": ["Paragraph 1 of Section 6", "Paragraph 2 of Section 6"]
+      }
+    ],
+    "FEATURES": [
+      { "TITLE": "Feature 1", "DESCRIPTION": "Description of Feature 1" },
+      { "TITLE": "Feature 2", "DESCRIPTION": "Description of Feature 2" }
+    ],
+    "testimonials": [{ "name": "John Doe", "testimonial": "Great product!" }],
+    "faqs": [{ "question": "FAQ 1", "answer": "Answer to FAQ 1" }]
+  },
+  "CTA": {
+    "HEADING": "Let’s Work Together",
+    "TEXT": "Looking to bring your ideas to life through motion graphics, graphic design, or illustration? Let’s create something amazing together!",
+    "BUTTON": "Get Started",
+    "URL": "/signup"
+  }
+}

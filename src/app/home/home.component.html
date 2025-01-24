@@ -1,0 +1,76 @@
+<div *ngIf="homeData" class="container">
+  <section class="hero-section">
+    <div
+      class="site-identity-wrapper md:hidden flex justify-center items-center my-4"
+    >
+      <img
+        src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHR6YjJhOGR4azV6Ym9vYWEwcHNxMDBsOHFpZGlhNW5qanc0eG9nNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MMNzhd92nclgyF4qIB/giphy.webp"
+        class="site-identity-in-content rounded-lg w-full shadow-2xl animate-pop-in"
+      />
+    </div>
+    <div class="titles-wrapper my-16">
+      @for (title of homeData.hero.TITLES; track title) {
+      <h2 class="title animate-pop-in">{{ title }}</h2>
+      }
+    </div>
+
+    <!-- <div class="subtitle">{{ aboutData.hero.SUBTITLE }}</div>
+      <div class="page-intro intro-wrapper">
+        @for (par of aboutData.hero.INTRO; track par) {
+        <div>{{ par }}</div>
+        }
+      </div> -->
+
+    <!-- column 2 -->
+    <div class="column">
+      <div class="hero-image-wrapper my-16 sm:my-32 lg:my-44 animate-pop-in">
+        <img
+          src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXJzaG93OG9peDR4ZTRmY2lvZnBjanlvbmhkdTcydnM0ODNveWlwNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tVoqowNuiAxjjjHqty/giphy.webp"
+          class="hero-image"
+          alt="Marta Tendero la Martastica"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
+    <h2 class="text-center text-2xl my-8">{{ homeData.body.TITLE }}</h2>
+    @for (listItem of homeData.body.LIST; track listItem) {
+    <div class="text-center text-3xl mb-6">{{ listItem }}</div>
+    <div class="text-center">▼</div>
+    }
+
+    <p class="text-center my-20 text-2xl">
+      @for (item of homeData.body.ITEMS; track item) {
+      <span>{{ item }}</span
+      ><br />
+      }
+    </p>
+    <!-- <p class="subtitle text-center">
+        I can help you tell your stories beautifully!
+      </p> -->
+
+    <!-- <p class="subtitle">I can help you tell your stories beautifully!</p> -->
+    <!-- <div class="subtitle">{{ aboutData.hero.SUBTITLE }}</div>
+      <div class="page-intro intro-wrapper">
+        @for (par of aboutData.hero.INTRO; track par) {
+        <div>{{ par }}</div>
+        }
+      </div> -->
+  </section>
+  <!-- </div> -->
+
+  <!-- CTA - START -->
+  <section class="cta-section card-section">
+    <a routerLink="/projects/motion-graphics"
+      ><div class="cta-card card" @fadeSlideUp>Explore my work</div></a
+    >
+    <a routerLink="/about"
+      ><div class="cta-card card" @fadeSlideUp>Get to know me</div></a
+    >
+    <a routerLink="/contact"
+      ><div class="cta-card card" @fadeSlideUp>Let's talk</div></a
+    >
+  </section>
+  <!-- CTA - END -->
+</div>

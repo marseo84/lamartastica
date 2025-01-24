@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "name": "Motion Graphics",
+      "slug": "motion-graphics",
+      "description": "Creative and animated video designs.",
+      "subcategories": [
+        {
+          "name": "Logo Animation",
+          "slug": "logo-animation",
+          "projects": [
+            {
+              "title": "Logo Animation for Tech Company",
+              "description": "A dynamic logo animation project.",
+              "images": [
+                "https://media.istockphoto.com/id/117148882/de/foto/gro%C3%9Fen-orkas-sonnenuntergang-spyhop.jpg?s=2048x2048&w=is&k=20&c=NsTJIrsOU4H3NnMCLGuUIwJlpBCYEtywsXUsrb2_MYc="
+              ],
+              "url": "/projects/motion-graphics/logo-animation/logo-animation-for-tech-company"
+            }
+          ]
+        },
+        {
+          "name": "Giphographics",
+          "slug": "giphographics",
+          "projects": [
+            {
+              "title": "Fun GIF for Marketing Campaign",
+              "description": "A creative GIF used in a marketing campaign.",
+              "images": [
+                "https://media.istockphoto.com/id/1438085645/de/foto/biggs-orca-wal-springt-aus-dem-meer-in-vancouver-island-kanada.jpg?s=2048x2048&w=is&k=20&c=FoqzVZcgPmNGCyvjRpGHuEFq6trPZc-RnJkExS-ImVc=",
+                "https://media.istockphoto.com/id/139872063/de/foto/killer-whale.jpg?s=2048x2048&w=is&k=20&c=bL7QjBJb1hpq_POFIoqQXrBVcx9EE5e-GVgLvz0ACZc=",
+                "https://media.istockphoto.com/id/1227190913/de/foto/killer-whale-orcinus-orca-adult-leaping-kanada.jpg?s=2048x2048&w=is&k=20&c=k7NdARfMT7PEOobOh_jvIVDvsnorjacqzRx_bjXHrY4="
+              ],
+              "url": "/projects/motion-graphics/giphographics/fun-gif-for-marketing-campaign"
+            }
+          ]
+        },
+        {
+          "name": "Explainer Video",
+          "slug": "explainer-video",
+          "projects": [
+            {
+              "title": "Explainer Video for SaaS Product",
+              "description": "A short explainer video for a software product.",
+              "images": ["path/to/image3.jpg"],
+              "url": "/projects/motion-graphics/explainer-video/explainer-video-for-saas-product"
+            }
+          ]
+        }
+      ],
+      "projectsWithoutSubcategory": [
+        {
+          "title": "3D Animation for Branding",
+          "description": "A 3D animation project for a global brand.",
+          "images": ["path/to/image4.jpg"],
+          "url": "/projects/motion-graphics/3d-animation-for-branding"
+        }
+      ]
+    },
+    {
+      "name": "Graphic Design",
+      "slug": "graphic-design",
+      "description": "Designs for print, branding, and more.",
+      "projects": [
+        {
+          "title": "Brand Identity for Tech Startup",
+          "description": "Logo and branding for a new tech startup.",
+          "images": ["path/to/image5.jpg"],
+          "url": "/projects/graphic-design/brand-identity-for-tech-startup"
+        }
+      ]
+    }
+  ]
+}

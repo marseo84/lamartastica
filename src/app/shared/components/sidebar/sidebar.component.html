@@ -1,0 +1,101 @@
+<div
+  class="sidebar-container"
+  [class.open]="isSidebarOpen"
+  (click)="closeSidbar()"
+>
+  <div class="sidebar-start">
+    <nav class="sidebar-nav" (click)="$event.stopPropagation()">
+      <ul>
+        <li>
+          <a routerLink="/">
+            <!-- <div class="nav-link site-identity">la Martastica</div> -->
+            <div class="sidebar-site-identity-wrapper">
+              <img
+                src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHR6YjJhOGR4azV6Ym9vYWEwcHNxMDBsOHFpZGlhNW5qanc0eG9nNyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MMNzhd92nclgyF4qIB/giphy.webp"
+                class="site-identity rounded"
+              />
+            </div>
+          </a>
+        </li>
+        <li>
+          <a routerLink="/about" class="nav-link">{{
+            "NAV.ABOUT" | translate
+          }}</a>
+        </li>
+        <!-- <li>
+        <button class="dropdown-toggle nav-link">Services</button>
+        <ul>
+          <li>
+            <a routerLink="/services" class="nav-link">{{
+              "NAV.SERVICES_CATEGORIES" | translate
+            }}</a>
+          </li>
+          <li>
+            <a routerLink="/services/motion-graphics" class="nav-link">{{
+              "NAV.SERVICES_MOTION_GRAPHICS" | translate
+            }}</a>
+          </li>
+          <li>
+            <a routerLink="/services/graphic-design" class="nav-link">{{
+              "NAV.SERVICES_GRAPHIC_DESIGN" | translate
+            }}</a>
+          </li>
+          <li>
+            <a routerLink="/services/illustration" class="nav-link">{{
+              "NAV.SERVICES_ILLUSTRATION" | translate
+            }}</a>
+          </li>
+        </ul>
+      </li> -->
+        <li>
+          <!-- <button class="dropdown-toggle nav-link">Projects</button> -->
+          <!-- <div class="nav-link">Projects</div> -->
+          <div class="">Projects</div>
+          <ul>
+            <!-- <li>
+            <a routerLink="/projects" class="nav-link">{{
+              "NAV.PROJECTS_CATEGORIES" | translate
+            }}</a>
+          </li> -->
+            <li>
+              <a routerLink="/projects/motion-graphics" class="nav-link">{{
+                "NAV.PROJECTS_MOTION_GRAPHICS" | translate
+              }}</a>
+            </li>
+            <li>
+              <a routerLink="/projects/graphic-design" class="nav-link">{{
+                "NAV.PROJECTS_GRAPHIC_DESIGN" | translate
+              }}</a>
+            </li>
+            <li>
+              <a routerLink="/projects/illustration" class="nav-link">{{
+                "NAV.PROJECTS_ILLUSTRATION" | translate
+              }}</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a routerLink="/contact" class="nav-link">{{
+            "NAV.CONTACT" | translate
+          }}</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="sidebar-end">
+    <app-language-switcher></app-language-switcher>
+  </div>
+</div>
+
+<div
+  class="sidebar-toggler"
+  [class.open]="isSidebarOpen"
+  (click)="toggleSidebar()"
+  id="sidebar-toggler"
+>
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+</div>

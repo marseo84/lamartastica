@@ -1,0 +1,16 @@
+.profile-image-wrapper {
+  display: inline-block;
+  max-width: 45%;
+  border: 1px solid pink;
+}
+
+.profile-image {
+  width: 100%;
+}
+
+@media only screen and (min-width: 481px) {
+  .profile-image {
+    border-radius: 4%;
+    max-width: 40vw;
+  }
+}

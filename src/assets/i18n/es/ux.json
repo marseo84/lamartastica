@@ -1,0 +1,26 @@
+{
+  "NAV": {
+    "HOME": "Inicio",
+    "ABOUT": "Sobre Mí",
+    "SERVICES": "Servicios",
+    "SERVICES_CATEGORIES": "Visión General",
+    "SERVICES_MOTION_GRAPHICS": "Motion Graphics",
+    "SERVICES_GRAPHIC_DESIGN": "Diseño Gráfico",
+    "SERVICES_ILLUSTRATION": "Ilustración",
+    "PROJECTS": "Proyectos",
+    "PROJECTS_CATEGORIES": "Visión General",
+    "PROJECTS_MOTION_GRAPHICS": "Motion Graphics",
+    "PROJECTS_GRAPHIC_DESIGN": "Diseño Gráfico",
+    "PROJECTS_ILLUSTRATION": "Ilustración",
+    "CONTACT": "Contacto"
+  },
+  "FOOTER": {
+    "COPYRIGHT": "© 2024 La Martastica. Todos los derechos reservados.",
+    "FOLLOW_US": "Síguenos en redes sociales"
+  },
+  "BUTTONS": {
+    "LEARN_MORE": "Más Información",
+    "SUBMIT": "Enviar",
+    "CANCEL": "Cancelar"
+  }
+}

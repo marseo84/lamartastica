@@ -1,0 +1,219 @@
+/* RESET - START */
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+  width: 100%;
+}
+
+/* RESET - END */
+
+/* CONTAINER - START */
+.sidebar-container {
+  position: fixed;
+  top: 0;
+  /* left: 0; */
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  align-items: center;
+  z-index: 10;
+  font-size: 1.2em;
+  transition: left 0.3s ease;
+  background-color: var(--secondary-bg-color);
+  /* background-color: red; */
+  /* overflow-x: hidden; */
+  /* border: none; */
+}
+
+.sidebar-container.open {
+  left: 0;
+}
+
+/* .sidebar-nav ul {
+  display: flex;
+  flex-direction: column;
+} */
+
+.sidebar-nav ul {
+  padding: 1em;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.nav-link {
+  @apply text-primary-text;
+  position: relative;
+  cursor: pointer;
+  width: 100%;
+}
+
+.nav-link::after {
+  border-radius: 1em;
+  @apply border-t border-primary-text;
+  content: "";
+  position: absolute;
+  right: 100%;
+  /* bottom: 0.14em; */
+  bottom: 0;
+  left: 0;
+  transition: right 0.4s cubic-bezier(0, 0.5, 0, 1);
+}
+
+.nav-link:hover::after {
+  right: 0;
+}
+
+/* .............. */
+
+@media only screen and (min-width: 769px) {
+  .sidebar-container {
+    display: flex;
+    width: 200px;
+    font-size: 1em;
+    justify-content: start;
+    padding-top: 1em;
+  }
+}
+
+/* CONTAINER - END */
+
+/* SITE IDENTITY - START */
+.sidebar-site-identity-wrapper {
+  cursor: pointer;
+}
+
+.site-identity {
+  max-width: 190px;
+}
+
+/* SITE IDENTITY - END */
+
+/* TOGGLER SECTION - START */
+
+/* toggler styles */
+.sidebar-toggler {
+  position: fixed;
+  top: 1em;
+  right: 1em;
+  /* font-size: 1.5em; */
+  /* background-color: var(--primary-bg-color); */
+  /* color: var(--primary-text-color); */
+  /* border: none; */
+  cursor: pointer;
+  z-index: 20;
+  /* z-index: 12; */
+  /* NEW STYLES */
+  width: 60px;
+  height: 45px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+}
+
+.sidebar-toggler span {
+  display: block;
+  position: absolute;
+  height: 9px;
+  width: 100%;
+  /* background: #d3531a; */
+  background-color: var(--primary-bg-color);
+
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+.sidebar-toggler span:nth-child(1) {
+  top: 0px;
+}
+
+.sidebar-toggler span:nth-child(2),
+.sidebar-toggler span:nth-child(3) {
+  top: 18px;
+}
+
+.sidebar-toggler span:nth-child(4) {
+  top: 36px;
+}
+
+.sidebar-toggler.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+.sidebar-toggler.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.sidebar-toggler.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.sidebar-toggler.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%;
+}
+
+@media only screen and (min-width: 769px) {
+  .sidebar-container {
+    left: 0;
+    width: 200px;
+    /* position: static; */
+  }
+
+  .sidebar-toggler {
+    /* visibility: hidden; */
+    display: none;
+  }
+}
+
+/* TOGGLER SECTION - END */
+
+/* NAV SIDE TOP - START */
+
+/* NAV SIDE TOP - END */
+
+/* LANGUAGE SWITCHER CONTAINER - START */
+.sidebar-end {
+  position: absolute;
+  bottom: 0.5em;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/* LANGUAGE SWITCHER CONTAINER - END */

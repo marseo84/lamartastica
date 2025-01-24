@@ -1,0 +1,28 @@
+{
+  "HERO": {
+    "TITLES": ["Motion Graphics", "Graphic Design", "Illustration"],
+    "SUBTITLE": "tell your stories beautifully!",
+    "CTA": "Explore My Work"
+  },
+  "BODY": {
+    "TITLE": "Do you want to?",
+    "LIST": [
+      "grab your audience's attention",
+      "stick in their minds",
+      "become their #1"
+    ],
+    "ITEMS": [
+      "Creative & outstanding visual solutions",
+      "tailored to your story and your audience",
+      "can help you do that!"
+    ]
+  },
+  "CTA": {
+    "TITLE": "",
+    "ITEMS": [
+      "grab your audience's attention",
+      "stick in their minds",
+      "become their #1"
+    ]
+  }
+}

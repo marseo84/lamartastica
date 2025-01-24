@@ -1,0 +1,673 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Motion Graphics",
+      "slug": "motion-graphics",
+      "description": "Creative and animated video designs.",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Logo Animation",
+          "slug": "logo-animation",
+          "projects": [
+            {
+              "id": 2,
+              "title": "Impulse",
+              "description": "logo animation",
+              "media": [
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049094725?share=copy#t=0"
+                },
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049094829?share=copy#t=0"
+                },
+                {
+                  "type": "video",
+                  "design_type": "mockup",
+                  "src": "https://vimeo.com/1049094808?share=copy#t=0"
+                },
+                {
+                  "type": "video",
+                  "design_type": "mockup",
+                  "src": "https://vimeo.com/1049094851?share=copy#t=0"
+                }
+              ],
+              "url": "/projects/motion-graphics/logo-animation/impulse",
+              "order": 1
+            },
+            {
+              "id": 12,
+              "title": "Logo Animation: Ohyoko",
+              "description": "Logo animation for a hand-craft ceramics brand",
+              "media": [
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049102751?share=copy#t=0"
+                },
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1036233729?share=copy#t=0"
+                }
+              ],
+              "url": "/projects/motion-graphics/logo-animation/ohyoko",
+              "order": 1
+            },
+            {
+              "id": 16,
+              "title": "Logo Animation: Areen",
+              "description": "logo animation",
+              "media": [
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049102495?share=copy#t=0"
+                }
+              ],
+              "url": "/projects/motion-graphics/logo-animation/areen",
+              "order": 1
+            },
+            {
+              "id": 18,
+              "title": "Logo Animation: Fan for Real",
+              "description": "logo animation",
+              "media": [
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049273995?share=copy#t=0"
+                }
+              ],
+              "url": "/projects/motion-graphics/logo-animation/fan-for-real",
+              "order": 1
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": 2,
+          "name": "Explainer Video",
+          "slug": "explainer-video",
+          "projects": [
+            {
+              "id": 22,
+              "title": "Online Doctor",
+              "description": "Explainer video",
+              "media": [
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049274047?share=copy#t=0"
+                }
+              ],
+              "url": "/projects/motion-graphics/explainer-video/online-doctor",
+              "order": 3
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 3,
+          "name": "Typography Animation",
+          "slug": "typography-animation",
+          "projects": [
+            {
+              "id": 19,
+              "title": "Neon Light",
+              "description": "Typography animation",
+              "media": [
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049274008?share=copy#t=0"
+                }
+              ],
+              "url": "/projects/motion-graphics/typography-animation/neon-light",
+              "order": 1
+            },
+            {
+              "id": 6,
+              "title": "la Martastica",
+              "description": "Typography animation",
+              "media": [
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049099172?share=copy#t=0"
+                },
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049099196?share=copy#t=0"
+                }
+              ],
+              "url": "/projects/motion-graphics/typography-animation/la-martastica",
+              "order": 1
+            },
+            {
+              "id": 7,
+              "title": "Public Announcement",
+              "description": "Typography animation",
+              "media": [
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049099221?share=copy#t=0"
+                },
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049099254?share=copy#t=0"
+                },
+                {
+                  "type": "video",
+                  "design_type": "mockup",
+                  "src": "https://vimeo.com/1039592346?share=copy#t=0"
+                }
+              ],
+              "url": "/projects/motion-graphics/typography-animation/public-announcement",
+              "order": 1
+            }
+          ],
+          "order": 2
+        },
+        {
+          "id": 4,
+          "name": "Title Sequence",
+          "slug": "title-sequence",
+          "projects": [
+            {
+              "id": 15,
+              "title": "Eme Productions",
+              "description": "title sequence",
+              "media": [
+                {
+                  "type": "video",
+                  "design_type": "artwork",
+                  "src": "https://vimeo.com/1049102830?share=copy#t=0"
+                }
+              ],
+              "url": "/projects/motion-graphics/title-sequence/explainer-video-for-saas-product",
+              "order": 3
+            }
+          ],
+          "order": 1
+        }
+      ],
+      "projectsWithoutSubcategory": [
+        {
+          "id": 1,
+          "title": "Spaghetti Dogs",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049086748?share=copy#t=0"
+            },
+            {
+              "type": "video",
+              "design_type": "mockup",
+              "src": "https://vimeo.com/1049086771?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/spaghetti-dogs",
+          "order": 2
+        },
+        {
+          "id": 3,
+          "title": "Sunset Over A Mountain Lake",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049098326?share=copy#t=0"
+            },
+            {
+              "type": "video",
+              "design_type": "mockup",
+              "src": "https://vimeo.com/1039591621?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/sunset-over-a-mountain-lake",
+          "order": 2
+        },
+        {
+          "id": 4,
+          "title": "Connections",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049099274?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/connections",
+          "order": 2
+        },
+        {
+          "id": 5,
+          "title": "Brain",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049099117?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/brain",
+          "order": 2
+        },
+        {
+          "id": 8,
+          "title": "Peak",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049102564?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/peak",
+          "order": 2
+        },
+        {
+          "id": 9,
+          "title": "Stage Setup",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049102611?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/stage-setup",
+          "order": 2
+        },
+        {
+          "id": 10,
+          "title": "Vienna Skyline",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049102632?share=copy#t=0"
+            },
+            {
+              "type": "video",
+              "design_type": "mockup",
+              "src": "https://vimeo.com/1049102714?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/vienna-skyline",
+          "order": 2
+        },
+        {
+          "id": 11,
+          "title": "Boy Reading",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049270356?share=copy#t=0"
+            },
+            {
+              "type": "video",
+              "design_type": "mockup",
+              "src": "https://vimeo.com/1049102726?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/boy-reading",
+          "order": 2
+        },
+        {
+          "id": 13,
+          "title": "Crying Philosopher",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049102808?share=copy#t=0"
+            },
+            {
+              "type": "video",
+              "design_type": "mockup",
+              "src": "https://vimeo.com/1049102765?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/crying-philosopher",
+          "order": 2
+        },
+        {
+          "id": 14,
+          "title": "Circus",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049102781?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/circus",
+          "order": 2
+        },
+        {
+          "id": 17,
+          "title": "Cycling Commuter",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049102533?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/cycling-commuter",
+          "order": 2
+        },
+        {
+          "id": 20,
+          "title": "Depth",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049274019?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/depth",
+          "order": 2
+        },
+        {
+          "id": 21,
+          "title": "Floating Bubbles",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049274031?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/floating-bubbles",
+          "order": 2
+        },
+        {
+          "id": 23,
+          "title": "Broken Screens",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049274067?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/broken-screens",
+          "order": 2
+        },
+        {
+          "id": 24,
+          "title": "Van Love",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049274082?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/van-love",
+          "order": 2
+        },
+        {
+          "id": 25,
+          "title": "Coffee Lover",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049274094?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/coffee-lover",
+          "order": 2
+        },
+        {
+          "id": 26,
+          "title": "Hate Media",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049273939?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/hate-media",
+          "order": 2
+        },
+        {
+          "id": 26,
+          "title": "Dancers",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049274109?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/dancers",
+          "order": 2
+        },
+        {
+          "id": 27,
+          "title": "BFF",
+          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049273952?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/bff",
+          "order": 2
+        },
+        {
+          "id": 29,
+          "title": "Santa Jr. Reading Chaman Ediciones",
+          "description": "Social media post an independent publisher",
+          "media": [
+            {
+              "type": "video",
+              "design_type": "artwork",
+              "src": "https://vimeo.com/1049273966?share=copy#t=0"
+            }
+          ],
+          "url": "/projects/motion-graphics/3d-animation-for-branding",
+          "order": 2
+        }
+      ],
+      "order": 1
+    },
+    {
+      "id": 2,
+      "name": "Graphic Design",
+      "slug": "graphic-design",
+      "description": "Innovative and professional graphic design solutions.",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Brand Identity",
+          "slug": "brand-identity",
+          "projects": [
+            {
+              "id": 101,
+              "title": "Placeholder Project 1",
+              "description": "Placeholder description for brand identity design.",
+              "media": [
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "https://via.placeholder.com/600x400"
+                }
+              ],
+              "url": "/projects/graphic-design/brand-identity/placeholder-project-1",
+              "order": 1
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 2,
+          "name": "Packaging Design",
+          "slug": "packaging-design",
+          "projects": [
+            {
+              "id": 102,
+              "title": "Placeholder Project 2",
+              "description": "Placeholder description for packaging design.",
+              "media": [
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "https://via.placeholder.com/600x400"
+                }
+              ],
+              "url": "/projects/graphic-design/packaging-design/placeholder-project-2",
+              "order": 1
+            }
+          ],
+          "order": 2
+        }
+      ],
+      "projectsWithoutSubcategory": [
+        {
+          "id": 103,
+          "title": "Placeholder Standalone Project",
+          "description": "Standalone graphic design project placeholder.",
+          "media": [
+            {
+              "type": "image",
+              "design_type": "artwork",
+              "src": "https://via.placeholder.com/600x400"
+            }
+          ],
+          "url": "/projects/graphic-design/placeholder-standalone-project",
+          "order": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Illustration",
+      "slug": "illustration",
+      "description": "Custom and creative illustrations.",
+      "subcategories": [
+        {
+          "id": 1,
+          "name": "Digital Art",
+          "slug": "digital-art",
+          "projects": [
+            {
+              "id": 201,
+              "title": "Placeholder Project 1",
+              "description": "Placeholder description for digital art.",
+              "media": [
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "https://via.placeholder.com/600x400"
+                }
+              ],
+              "url": "/projects/illustrations/digital-art/placeholder-project-1",
+              "order": 1
+            }
+          ],
+          "order": 1
+        },
+        {
+          "id": 2,
+          "name": "Traditional Art",
+          "slug": "traditional-art",
+          "projects": [
+            {
+              "id": 202,
+              "title": "Placeholder Project 2",
+              "description": "Placeholder description for traditional art.",
+              "media": [
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "https://via.placeholder.com/600x400"
+                }
+              ],
+              "url": "/projects/illustrations/traditional-art/placeholder-project-2",
+              "order": 1
+            }
+          ],
+          "order": 2
+        }
+      ],
+      "projectsWithoutSubcategory": [
+        {
+          "id": 30,
+          "title": "Ginkgo Biloba",
+          "description": "disenado para la farmacia",
+          "media": [
+            {
+              "type": "image",
+              "design_type": "artwork",
+              "src": "assets/images/30-ginkgo-biloba-1-20250121-art.webp"
+            },
+            {
+              "type": "image",
+              "design_type": "artwork",
+              "src": "assets/images/30-ginkgo-biloba-2-20250121-art.webp"
+            },
+            {
+              "type": "image",
+              "design_type": "artwork",
+              "src": "assets/images/30-ginkgo-biloba-3-20250121-art.png"
+            }
+          ],
+          "url": "/projects/illustrations/ginkgo-biloba",
+          "order": 1
+        },
+        {
+          "id": 31,
+          "title": "Vintage Dead Nature",
+          "description": "porque retro mola",
+          "media": [
+            {
+              "type": "image",
+              "design_type": "artwork",
+              "src": "assets/images/31-vintage-dead-nature-1-20250121-art.jpg"
+            }
+          ],
+          "url": "/projects/illustrations/vintage-dead-nature",
+          "order": 1
+        }
+      ]
+    }
+  ]
+}

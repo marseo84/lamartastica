@@ -1,0 +1,11 @@
+{
+  "HERO": {
+    "TITLE": "Bienvenido a La Martastica",
+    "SUBTITLE": "Soluciones creativas para tu marca",
+    "CTA": "Explora Mi Trabajo"
+  },
+  "FEATURES": {
+    "TITLE": "¿Por qué elegirme?",
+    "ITEMS": ["Diseños únicos", "Atención al detalle", "Entrega puntual"]
+  }
+}
