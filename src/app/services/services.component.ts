@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
-  selector: 'app-services',
-  templateUrl: './services.component.html',
-  styleUrl: './services.component.css',
+    selector: 'app-services',
+    templateUrl: './services.component.html',
+    styleUrl: './services.component.css',
+    standalone: false
 })
 export class ServicesComponent implements OnInit {
   category: string | null = '';

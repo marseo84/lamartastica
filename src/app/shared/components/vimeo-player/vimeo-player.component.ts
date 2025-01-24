@@ -9,9 +9,10 @@ import {
 import { isPlatformBrowser } from '@angular/common';
 
 @Component({
-  selector: 'app-vimeo-player',
-  templateUrl: './vimeo-player.component.html',
-  styleUrls: ['./vimeo-player.component.css'],
+    selector: 'app-vimeo-player',
+    templateUrl: './vimeo-player.component.html',
+    styleUrls: ['./vimeo-player.component.css'],
+    standalone: false
 })
 export class VimeoPlayerComponent implements AfterViewInit {
   // @Input() videoId!: string;

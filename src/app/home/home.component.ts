@@ -6,28 +6,26 @@ import { DataService } from '../shared/services/data.service';
 import { trigger, style, animate, transition } from '@angular/animations';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrl: './home.component.css',
-  animations: [
-    trigger('fadeSlideUp', [
-      transition(':enter', [
-        style({
-          opacity: 0,
-          transform: 'translateY(4rem)',
-          visibility: 'hidden',
-        }), // Initially hidden
-        animate(
-          '500ms ease-in',
-          style({
-            opacity: 1,
-            transform: 'translateY(0)',
-            visibility: 'visible',
-          })
-        ), // Visible after animation
-      ]),
-    ]),
-  ],
+    selector: 'app-home',
+    templateUrl: './home.component.html',
+    styleUrl: './home.component.css',
+    animations: [
+        trigger('fadeSlideUp', [
+            transition(':enter', [
+                style({
+                    opacity: 0,
+                    transform: 'translateY(4rem)',
+                    visibility: 'hidden',
+                }), // Initially hidden
+                animate('500ms ease-in', style({
+                    opacity: 1,
+                    transform: 'translateY(0)',
+                    visibility: 'visible',
+                })), // Visible after animation
+            ]),
+        ]),
+    ],
+    standalone: false
 })
 export class HomeComponent implements OnInit, OnDestroy {
   homeData: any; // holds the translated content

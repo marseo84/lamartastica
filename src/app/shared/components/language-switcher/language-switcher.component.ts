@@ -2,9 +2,10 @@ import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
-  selector: 'app-language-switcher',
-  templateUrl: './language-switcher.component.html',
-  styleUrl: './language-switcher.component.css',
+    selector: 'app-language-switcher',
+    templateUrl: './language-switcher.component.html',
+    styleUrl: './language-switcher.component.css',
+    standalone: false
 })
 export class LanguageSwitcherComponent {
   selectedLanguage = 'en';

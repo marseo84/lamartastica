@@ -5,9 +5,10 @@ import { DataService } from '../shared/services/data.service';
 // import { NestedTranslateLoader } from '../shared/services/nested-translate-loader';
 
 @Component({
-  selector: 'app-about',
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.css',
+    selector: 'app-about',
+    templateUrl: './about.component.html',
+    styleUrl: './about.component.css',
+    standalone: false
 })
 export class AboutComponent implements OnInit, OnDestroy {
   aboutData: any;
