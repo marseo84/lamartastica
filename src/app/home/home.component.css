@@ -1,19 +1,28 @@
-/* .animate-pop-in {
-  animation: pop-in 0.6s cubic-bezier(0, 0.9, 0.3, 1.2) forwards;
-  opacity: 0;
+/* HERO SECTION */
+
+.hero-section {
+  @apply w-full;
 }
 
-.title {
-  animation-delay: 1s;
+.hero-image-wrapper {
+  @apply flex justify-center w-full;
+  /* max-height: 80dvh; */
+  max-height: 80dvh;
+
+  /* @screen md {
+      max-height: 50dvh;
+    } */
+
+  /* @screen lg {
+      max-height: 40dvh;
+    } */
 }
 
-@keyframes pop-in {
-  0% {
-    opacity: 0;
-    transform: translateY(-4rem) scale(0.8);
-  }
-  100% {
-    opacity: 1;
-    transform: none;
-  }
-} */
+.hero-image {
+  /* @apply shadow-2xl rounded-lg h-full w-auto; */
+  @apply shadow-2xl rounded-xl h-full w-auto;
+}
+
+.hero-list {
+  @apply my-8;
+}

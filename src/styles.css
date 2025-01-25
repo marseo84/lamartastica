@@ -1,7 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Open+Sans:wght@400;700&display=swap");
 
 /* TYPOGRAPHY */
 @layer base {
@@ -58,31 +58,31 @@
 
 /* HERO SECTION */
 @layer components {
-  .hero-section {
+  /* .hero-section {
     @apply w-full;
-  }
+  } */
 
-  .hero-image-wrapper {
+  /* .hero-image-wrapper {
     @apply flex justify-center w-full;
-    /* max-height: 80dvh; */
-    max-height: 80dvh;
+    
+    max-height: 80dvh; */
 
-    /* @screen md {
+  /* @screen md {
       max-height: 50dvh;
     } */
 
-    /* @screen lg {
+  /* @screen lg {
       max-height: 40dvh;
     } */
-  }
+  /* } */
 
-  .hero-image {
+  /* .hero-image {
     @apply shadow-2xl rounded-lg h-full w-auto;
   }
 
   .hero-list {
     @apply my-8;
-  }
+  } */
 
   .no-bullets {
     @apply list-none m-0 p-0;

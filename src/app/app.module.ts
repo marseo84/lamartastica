@@ -16,6 +16,7 @@ import { HttpClientModule, provideHttpClient } from '@angular/common/http';
 import { HttpClient } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 // import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
@@ -29,10 +30,10 @@ import { LanguageSwitcherComponent } from './shared/components/language-switcher
 import { UtilsService } from './shared/services/utils.service';
 import { VimeoPlayerComponent } from './shared/components/vimeo-player/vimeo-player.component';
 import { ThankYouComponent } from './thank-you/thank-you.component';
+import { InViewportDirective } from './directives/in-viewport.directive';
 
 // import function to register Swiper custom elements
 import { register } from 'swiper/element/bundle';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // register Swiper custom elements
 register();
 
@@ -66,13 +67,13 @@ export function HttpLoaderFactory(
     LanguageSwitcherComponent,
     VimeoPlayerComponent,
     ThankYouComponent,
+    InViewportDirective,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    BrowserModule,
     BrowserAnimationsModule,
     TranslateModule.forRoot({
       loader: {
@@ -83,8 +84,8 @@ export function HttpLoaderFactory(
     }),
   ],
   providers: [
-    provideClientHydration(),
-    provideHttpClient(),
+    // provideClientHydration(),
+    // provideHttpClient(),
     {
       provide: PREFIX,
       useValue: '/assets/i18n/',

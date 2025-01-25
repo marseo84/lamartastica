@@ -62,15 +62,45 @@
 
   <!-- CTA - START -->
   <section class="cta-section card-section">
-    <a routerLink="/projects/motion-graphics"
-      ><div class="cta-card card" @fadeSlideUp>Explore my work</div></a
-    >
-    <a routerLink="/about"
-      ><div class="cta-card card" @fadeSlideUp>Get to know me</div></a
-    >
-    <a routerLink="/contact"
-      ><div class="cta-card card" @fadeSlideUp>Let's talk</div></a
-    >
+    <a routerLink="/projects/motion-graphics">
+      <div
+        appInViewport
+        (visible)="onElementVisible($event)"
+        [@fadeSlideUp]="{
+          value: 'in',
+          params: { delay: getAnimationDelay(0) }
+        }"
+        class="cta-card card"
+      >
+        Explore my work
+      </div>
+    </a>
+    <a routerLink="/about">
+      <div
+        appInViewport
+        (visible)="onElementVisible($event)"
+        [@fadeSlideUp]="{
+          value: 'in',
+          params: { delay: getAnimationDelay(1) }
+        }"
+        class="cta-card card"
+      >
+        Get to know me
+      </div>
+    </a>
+    <a routerLink="/contact">
+      <div
+        appInViewport
+        (visible)="onElementVisible($event)"
+        [@fadeSlideUp]="{
+          value: 'in',
+          params: { delay: getAnimationDelay(2) }
+        }"
+        class="cta-card card"
+      >
+        Let's talk
+      </div>
+    </a>
   </section>
   <!-- CTA - END -->
 </div>

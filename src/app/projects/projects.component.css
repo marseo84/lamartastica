@@ -29,7 +29,8 @@ h1 {
   /* max-height: 95vh; */
   /* height: 90dvh; */
   /* background: #f9f9f9; */
-  border: 1px solid var(--secondary-bg-color);
+  /* border: 1px solid var(--secondary-bg-color); */
+  @apply border border-secondary-bg rounded-md;
   padding: 1em;
   /* border-radius: 8px; */
   /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */

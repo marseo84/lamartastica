@@ -30,7 +30,7 @@ nav ul li {
   z-index: 10;
   font-size: 1.2em;
   transition: left 0.3s ease;
-  background-color: var(--secondary-bg-color);
+  @apply bg-primary-bg md:bg-transparent;
   /* background-color: red; */
   /* overflow-x: hidden; */
   /* border: none; */
@@ -116,8 +116,10 @@ nav ul li {
   z-index: 20;
   /* z-index: 12; */
   /* NEW STYLES */
-  width: 60px;
-  height: 45px;
+  /* width: 60px; */
+  /* height: 45px; */
+  width: 3em;
+  height: 1em;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -131,10 +133,10 @@ nav ul li {
 .sidebar-toggler span {
   display: block;
   position: absolute;
-  height: 9px;
+  height: 5px;
   width: 100%;
   /* background: #d3531a; */
-  background-color: var(--primary-bg-color);
+  @apply bg-secondary-bg;
 
   border-radius: 9px;
   opacity: 1;
@@ -155,11 +157,11 @@ nav ul li {
 
 .sidebar-toggler span:nth-child(2),
 .sidebar-toggler span:nth-child(3) {
-  top: 18px;
+  top: 14px;
 }
 
 .sidebar-toggler span:nth-child(4) {
-  top: 36px;
+  top: 28px;
 }
 
 .sidebar-toggler.open span:nth-child(1) {
@@ -211,9 +213,10 @@ nav ul li {
 .sidebar-end {
   position: absolute;
   bottom: 0.5em;
-  display: flex;
+
+  /* display: flex;
   justify-content: start;
-  align-items: center;
+  align-items: center; */
 }
 
 /* LANGUAGE SWITCHER CONTAINER - END */

@@ -1,28 +1,24 @@
 <div *ngIf="aboutData">
   <div class="hero-wrapper">
-    <h1 class="title">{{ aboutData.hero.TITLE }}</h1>
-    <div class="row">
-      <div class="column">
-        <div class="profile-image-wrapper">
-          <img
-            src="../../assets/images/profile-man.jpg"
-            class="profile-image"
-            alt="Marta Tendero aka la Martastica"
-          />
-        </div>
-      </div>
-      <div class="column">
-        <div class="subtitle">{{ aboutData.hero.SUBTITLE }}</div>
-        <div class="page-intro intro-wrapper">
-          @for (par of aboutData.hero.INTRO; track par) {
-          <div>{{ par }}</div>
-          }
+    <div class="column profile-image-wrapper">
+      <img
+        src="../../assets/images/profile-man.jpg"
+        class="profile-image"
+        alt="Marta Tendero aka la Martastica"
+      />
+    </div>
+    <div class="column">
+      <h1 class="title">{{ aboutData.hero.TITLE }}</h1>
+      <div class="subtitle">{{ aboutData.hero.SUBTITLE }}</div>
+      <div class="page-intro intro-wrapper">
+        <div *ngFor="let par of aboutData.hero.INTRO">
+          {{ par }}
         </div>
       </div>
     </div>
   </div>
 
-  <!-- page body -->
+  <!-- Page body -->
   <div class="page-body-wrapper">
     <div *ngFor="let section of aboutData.sections">
       <h2>{{ section.heading }}</h2>

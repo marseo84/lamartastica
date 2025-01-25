@@ -1,71 +1,72 @@
-<div class="contact-container">
-  <h1 class="title">Contact</h1>
+<div
+  class="contact-container flex flex-col justify-around items-center h-[95dvh]"
+>
+  <h1 class="title text-2xl font-bold">Contact</h1>
   <div class="text-center">
     <p>Reach out to me using the form below.</p>
     <p>I'll get back to you rather sooner than later.</p>
   </div>
-  <!-- Vimeo Video Player -->
-  <!-- <app-vimeo-player
-    [videoId]="'1036233729'"
-    [autoplay]="true"
-    [loop]="true"
-    [muted]="false"
-  ></app-vimeo-player> -->
 
   <form
     action="https://formspree.io/f/meoqbkdn"
     method="POST"
     [formGroup]="contactForm"
     (ngSubmit)="onSubmit()"
-    class="contact-form border border-primary-text"
+    class="contact-form border p-6 rounded-md w-[95vw] md:w-[80vw] lg:w-[50vw] max-w-xl"
   >
-    <div class="form-section">
-      <label class="form-label" for="name">Name:</label>
+    <div class="form-section mb-4">
+      <label class="form-label block text-sm font-medium mb-1" for="name"
+        >Name:</label
+      >
       <input
         id="name"
         formControlName="name"
         name="name"
-        type="name"
-        class="form-input"
+        type="text"
+        class="form-input w-full rounded-md p-2 border border-gray-300"
         required
       />
       <div
         *ngIf="
           contactForm.get('name')?.invalid && contactForm.get('name')?.touched
         "
-        class="form-error"
+        class="form-error text-red-500 text-sm mt-1"
       >
         Name is required.
       </div>
     </div>
 
-    <div class="form-section">
-      <label class="form-label" for="email">Email:</label>
+    <div class="form-section mb-4">
+      <label class="form-label block text-sm font-medium mb-1" for="email"
+        >Email:</label
+      >
       <input
         id="email"
         formControlName="email"
         name="email"
         type="email"
-        class="form-input"
+        class="form-input w-full rounded-md p-2 border border-gray-300"
         required
       />
       <div
         *ngIf="
           contactForm.get('email')?.invalid && contactForm.get('email')?.touched
         "
-        class="form-error"
+        class="form-error text-red-500 text-sm mt-1"
       >
         A valid email is required.
       </div>
     </div>
 
-    <div class="form-section">
-      <label class="form-label" for="message">Message:</label>
+    <div class="form-section mb-4">
+      <label class="form-label block text-sm font-medium mb-1" for="message"
+        >Message:</label
+      >
       <textarea
         id="message"
         formControlName="message"
         name="message"
-        class="form-input"
+        class="form-input w-full rounded-md p-2 border border-gray-300"
         required
         rows="4"
       ></textarea>
@@ -74,23 +75,16 @@
           contactForm.get('message')?.invalid &&
           contactForm.get('message')?.touched
         "
-        class="form-error"
+        class="form-error text-red-500 text-sm mt-1"
       >
         Message is required.
       </div>
     </div>
 
-    <!-- redirect to thank you page -->
-    <!-- <input
-      type="hidden"
-      name="_redirect"
-      value="https://lamartastica.com/thank-you"
-    /> -->
-
-    <div class="submit-btn-wrapper">
+    <div class="submit-btn-wrapper flex justify-center">
       <button
         type="submit"
-        class="form-btn-submit"
+        class="form-btn-submit px-6 py-2 rounded-md border border-white transition-all duration-300 ease-in-out hover:bg-gray-100 hover:shadow-lg"
         [disabled]="contactForm.invalid"
       >
         Send
@@ -106,7 +100,8 @@
       >
     </p>
     <p>
-      tel.: <a href="tel:+436765014830" class="contact-item">+43 676 5014830</a>
+      tel.:
+      <a href="tel:+436765014830" class="contact-item">+43 676 5014830</a>
     </p>
   </div>
 </div>

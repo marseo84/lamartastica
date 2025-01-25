@@ -4,31 +4,39 @@ import { TranslateService } from '@ngx-translate/core';
 import { DataService } from '../shared/services/data.service';
 // import { HomeData } from '../shared/models/home.model';
 import { trigger, style, animate, transition } from '@angular/animations';
+import { log } from 'console';
 
 @Component({
-    selector: 'app-home',
-    templateUrl: './home.component.html',
-    styleUrl: './home.component.css',
-    animations: [
-        trigger('fadeSlideUp', [
-            transition(':enter', [
-                style({
-                    opacity: 0,
-                    transform: 'translateY(4rem)',
-                    visibility: 'hidden',
-                }), // Initially hidden
-                animate('500ms ease-in', style({
-                    opacity: 1,
-                    transform: 'translateY(0)',
-                    visibility: 'visible',
-                })), // Visible after animation
-            ]),
-        ]),
-    ],
-    standalone: false
+  selector: 'app-home',
+  templateUrl: './home.component.html',
+  styleUrl: './home.component.css',
+  animations: [
+    trigger('fadeSlideUp', [
+      transition(
+        'in => in',
+        [
+          style({
+            opacity: 0,
+            transform: 'translateY(4rem)',
+            visibility: 'hidden',
+          }), // Initially hidden
+          animate(
+            '{{delay}}ms ease-in',
+            style({
+              opacity: 1,
+              transform: 'translateY(0)',
+              visibility: 'visible',
+            })
+          ),
+        ],
+        { params: { delay: 500 } } // Default delay is 500ms
+      ),
+    ]),
+  ],
+  standalone: false,
 })
 export class HomeComponent implements OnInit, OnDestroy {
-  homeData: any; // holds the translated content
+  homeData: any;
   private langChangeSubscription!: Subscription;
 
   constructor(
@@ -67,6 +75,17 @@ export class HomeComponent implements OnInit, OnDestroy {
     // unsubscribe to avoid memory leaks
     if (this.langChangeSubscription) {
       this.langChangeSubscription.unsubscribe();
+    }
+  }
+
+  getAnimationDelay(index: number): number {
+    return 500 + index * 500;
+  }
+
+  onElementVisible(event: boolean): void {
+    if (event) {
+      console.log('Element is visible!');
+      // Additional logic here
     }
   }
 }
