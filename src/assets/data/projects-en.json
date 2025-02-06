@@ -14,7 +14,7 @@
             {
               "id": 2,
               "title": "Impulse",
-              "description": "logo animation",
+              "description": "Logo animation",
               "media": [
                 {
                   "type": "video",
@@ -42,7 +42,7 @@
             },
             {
               "id": 12,
-              "title": "Logo Animation: Ohyoko",
+              "title": "Ohyoko",
               "description": "Logo animation for a hand-craft ceramics brand",
               "media": [
                 {
@@ -61,8 +61,8 @@
             },
             {
               "id": 16,
-              "title": "Logo Animation: Areen",
-              "description": "logo animation",
+              "title": "Areen",
+              "description": "Logo animation",
               "media": [
                 {
                   "type": "video",
@@ -75,8 +75,8 @@
             },
             {
               "id": 18,
-              "title": "Logo Animation: Fan for Real",
-              "description": "logo animation",
+              "title": "Fan for Real",
+              "description": "Logo animation",
               "media": [
                 {
                   "type": "video",
@@ -98,7 +98,7 @@
             {
               "id": 22,
               "title": "Online Doctor",
-              "description": "Explainer video",
+              "description": "Explainer video for online medical services",
               "media": [
                 {
                   "type": "video",
@@ -185,7 +185,7 @@
             {
               "id": 15,
               "title": "Eme Productions",
-              "description": "title sequence",
+              "description": "Title sequence",
               "media": [
                 {
                   "type": "video",
@@ -204,7 +204,7 @@
         {
           "id": 1,
           "title": "Spaghetti Dogs",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -223,7 +223,7 @@
         {
           "id": 3,
           "title": "Sunset Over A Mountain Lake",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -242,7 +242,7 @@
         {
           "id": 4,
           "title": "Connections",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -256,7 +256,7 @@
         {
           "id": 5,
           "title": "Brain",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -270,7 +270,7 @@
         {
           "id": 8,
           "title": "Peak",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -284,7 +284,7 @@
         {
           "id": 9,
           "title": "Stage Setup",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -298,7 +298,7 @@
         {
           "id": 10,
           "title": "Vienna Skyline",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -317,7 +317,7 @@
         {
           "id": 11,
           "title": "Boy Reading",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -336,7 +336,7 @@
         {
           "id": 13,
           "title": "Crying Philosopher",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -355,7 +355,7 @@
         {
           "id": 14,
           "title": "Circus",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -369,7 +369,7 @@
         {
           "id": 17,
           "title": "Cycling Commuter",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -383,7 +383,7 @@
         {
           "id": 20,
           "title": "Depth",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -397,7 +397,7 @@
         {
           "id": 21,
           "title": "Floating Bubbles",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -411,7 +411,7 @@
         {
           "id": 23,
           "title": "Broken Screens",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -425,7 +425,7 @@
         {
           "id": 24,
           "title": "Van Love",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -439,7 +439,7 @@
         {
           "id": 25,
           "title": "Coffee Lover",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -453,7 +453,7 @@
         {
           "id": 26,
           "title": "Hate Media",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -467,7 +467,7 @@
         {
           "id": 26,
           "title": "Dancers",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -481,7 +481,7 @@
         {
           "id": 27,
           "title": "BFF",
-          "description": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+          "description": "",
           "media": [
             {
               "type": "video",
@@ -517,21 +517,104 @@
       "subcategories": [
         {
           "id": 1,
-          "name": "Brand Identity",
-          "slug": "brand-identity",
+          "name": "Pattern",
+          "slug": "pattern",
           "projects": [
             {
-              "id": 101,
-              "title": "Placeholder Project 1",
-              "description": "Placeholder description for brand identity design.",
+              "id": 33,
+              "title": "Esterhazy Carpet Design 1",
+              "description": "Carpet design concepts for the Esterhazy Hotel renovation for BWM Designers & Architects",
               "media": [
                 {
                   "type": "image",
                   "design_type": "artwork",
-                  "src": "https://via.placeholder.com/600x400"
+                  "src": "assets/images/33-esterhazy-carpet-design-1-1-20250203-art.webp"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/33-esterhazy-carpet-design-1-2-20250203-art.webp"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/33-esterhazy-carpet-design-1-3-20250203-art.webp"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/33-esterhazy-carpet-design-1-4-20250203-art.webp"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/33-esterhazy-carpet-design-1-5-20250203-art.webp"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/33-esterhazy-carpet-design-1-6-20250203-art.webp"
                 }
               ],
-              "url": "/projects/graphic-design/brand-identity/placeholder-project-1",
+              "url": "/projects/graphic-design/pattern/esterhazy-carpet-design-1",
+              "order": 1
+            },
+            {
+              "id": 34,
+              "title": "Esterhazy Carpet Design 2",
+              "description": "Carpet design concepts for the Esterhazy Hotel renovation for BWM Designers & Architects",
+              "media": [
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/34-esterhazy-carpet-design-2-1-20250203-art.webp"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/34-esterhazy-carpet-design-2-2-20250203-art.webp"
+                }
+              ],
+              "url": "/projects/graphic-design/pattern/esterhazy-carpet-design-2",
+              "order": 1
+            },
+            {
+              "id": 32,
+              "title": "Pattern Design",
+              "description": "",
+              "media": [
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/32-pattern-design-1-20250203-art.jpg"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/32-pattern-design-2-20250203-art.png"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/32-pattern-design-3-20250203-art.png"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/32-pattern-design-4-20250203-art.png"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/32-pattern-design-5-20250203-art.png"
+                },
+                {
+                  "type": "image",
+                  "design_type": "artwork",
+                  "src": "assets/images/32-pattern-design-6-20250203-art.jpg"
+                }
+              ],
+              "url": "/projects/graphic-design/pattern/pattern-design",
               "order": 1
             }
           ],
@@ -539,21 +622,21 @@
         },
         {
           "id": 2,
-          "name": "Packaging Design",
-          "slug": "packaging-design",
+          "name": "Publication Design",
+          "slug": "publication-design",
           "projects": [
             {
-              "id": 102,
-              "title": "Placeholder Project 2",
-              "description": "Placeholder description for packaging design.",
+              "id": 35,
+              "title": "Book Cover: El dogo gris",
+              "description": "Book cover for Chamanes Ediciones",
               "media": [
                 {
                   "type": "image",
                   "design_type": "artwork",
-                  "src": "https://via.placeholder.com/600x400"
+                  "src": "assets/images/35-el-dogo-gris-1-20250203-art.webp"
                 }
               ],
-              "url": "/projects/graphic-design/packaging-design/placeholder-project-2",
+              "url": "/projects/graphic-design/publication-design/35-el-dogo-gris",
               "order": 1
             }
           ],
@@ -591,7 +674,7 @@
             {
               "id": 201,
               "title": "Placeholder Project 1",
-              "description": "Placeholder description for digital art.",
+              "description": "",
               "media": [
                 {
                   "type": "image",
@@ -613,7 +696,7 @@
             {
               "id": 202,
               "title": "Placeholder Project 2",
-              "description": "Placeholder description for traditional art.",
+              "description": "",
               "media": [
                 {
                   "type": "image",

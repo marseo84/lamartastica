@@ -16,11 +16,11 @@
 }
 
 .title {
-  @apply text-3xl font-bold text-center mb-6 md:text-left lg:text-4xl;
+  @apply text-3xl font-bold text-center mb-6 md:text-left lg:text-5xl;
 }
 
 .subtitle {
-  @apply text-xl font-semibold mb-4 md:text-2xl;
+  @apply text-xl font-semibold mb-4 md:text-3xl;
 }
 
 .page-intro {
@@ -28,22 +28,9 @@
 }
 
 .intro-wrapper {
-  @apply shadow-xl;
+  @apply shadow-xl rounded p-2;
 }
 
-/* .profile-image-wrapper {
-  display: inline-block;
-  max-width: 45%;
-  border: 1px solid pink;
+.section-wrapper {
+  @apply mb-6;
 }
-
-.profile-image {
-  width: 100%;
-}
-
-@media only screen and (min-width: 481px) {
-  .profile-image {
-    border-radius: 4%;
-    max-width: 40vw;
-  }
-} */

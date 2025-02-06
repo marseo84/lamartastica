@@ -46,10 +46,14 @@ h1 {
 }
 
 .project-image {
-  max-width: 100%;
+  min-height: 50dvh;
   height: auto;
+  /* height: 70%; */
+  /* width: auto; */
+  /* max-width: 100%; */
   border-radius: 4px;
   margin-bottom: 10px;
+  object-fit: contain;
 }
 
 .project-title {
