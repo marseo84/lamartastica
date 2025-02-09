@@ -44,17 +44,17 @@
     @apply flex flex-col items-center justify-center;
   }
 
-  .content {
+  /* .content {
     @apply px-4 md:px-8;
-  }
+  } */
 
   .row {
-    @apply flex flex-wrap gap-4 mb-8 border border-blue-500;
+    @apply flex flex-wrap gap-4 mb-8;
   }
 
-  .column {
+  /* .column {
     @apply flex-1 basis-1/2;
-  }
+  } */
 }
 
 /* HERO SECTION */
