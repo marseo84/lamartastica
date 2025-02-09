@@ -1,1 +1,31 @@
-{}
+{
+  "TITLE": "Contacto",
+  "DESCRIPTION": {
+    "LINE_1": "Ponte en contacto conmigo usando el formulario a continuación.",
+    "LINE_2": "Te responderé lo antes posible."
+  },
+  "FORM": {
+    "NAME": {
+      "LABEL": "Nombre:",
+      "PLACEHOLDER": "Tu nombre",
+      "REQUIRED_ERROR": "El nombre es obligatorio."
+    },
+    "EMAIL": {
+      "LABEL": "Correo electrónico:",
+      "PLACE_HOLDER": "Tu correo electrónico",
+      "REQUIRED_ERROR": "Se requiere un correo electrónico válido."
+    },
+    "MESSAGE": {
+      "LABEL": "Mensaje:",
+      "PLACE_HOLDER": "Tu mensaje",
+      "REQUIRED_ERROR": "El mensaje es obligatorio."
+    },
+    "SUBMIT_BUTTON": "Enviar"
+  },
+  "CONTACT_INFO": {
+    "EMAIL_LABEL": "correo electrónico:",
+    "EMAIL": "lamartastica@gmail.com",
+    "TEL_LABEL": "tel.:",
+    "TEL": "+43 676 5014830"
+  }
+}
