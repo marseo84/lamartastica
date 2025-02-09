@@ -1,1 +1,31 @@
-{}
+{
+  "TITLE": "Kontakt",
+  "DESCRIPTION": {
+    "LINE_1": "Kontaktujte mě pomocí formuláře níže.",
+    "LINE_2": "Ozvu se vám co nejdříve."
+  },
+  "FORM": {
+    "NAME": {
+      "LABEL": "Jméno:",
+      "PLACEHOLDER": "Vaše jméno",
+      "REQUIRED_ERROR": "Jméno je povinné."
+    },
+    "EMAIL": {
+      "LABEL": "E-mail:",
+      "PLACEHOLDER": "Váš e-mail",
+      "REQUIRED_ERROR": "Je vyžadován platný e-mail."
+    },
+    "MESSAGE": {
+      "LABEL": "Zpráva:",
+      "PLACEHOLDER": "Vaše zpráva",
+      "REQUIRED_ERROR": "Zpráva je povinná."
+    },
+    "SUBMIT_BUTTON": "Odeslat"
+  },
+  "CONTACT_INFO": {
+    "EMAIL_LABEL": "e-mail:",
+    "EMAIL": "lamartastica@gmail.com",
+    "TEL_LABEL": "tel.:",
+    "TEL": "+43 676 5014830"
+  }
+}

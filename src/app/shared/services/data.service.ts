@@ -50,6 +50,42 @@ export class DataService {
     );
   }
 
+  getContact(): Observable<any> {
+    return this.fetchJSON<any>('contact').pipe(
+      map((data) => ({
+        TITLE: data.TITLE || '', // Use uppercase key
+        DESCRIPTION: {
+          LINE_1: data.DESCRIPTION?.LINE_1 || '',
+          LINE_2: data.DESCRIPTION?.LINE_2 || '',
+        },
+        FORM: {
+          NAME: {
+            LABEL: data.FORM?.NAME?.LABEL || '',
+            PLACEHOLDER: data.FORM?.NAME?.PLACEHOLDER || '',
+            REQUIRED_ERROR: data.FORM?.NAME?.REQUIRED_ERROR || '',
+          },
+          EMAIL: {
+            LABEL: data.FORM?.EMAIL?.LABEL || '',
+            PLACEHOLDER: data.FORM?.EMAIL?.PLACEHOLDER || '',
+            REQUIRED_ERROR: data.FORM?.EMAIL?.REQUIRED_ERROR || '',
+          },
+          MESSAGE: {
+            LABEL: data.FORM?.MESSAGE?.LABEL || '',
+            PLACEHOLDER: data.FORM?.MESSAGE?.PLACEHOLDER || '',
+            REQUIRED_ERROR: data.FORM?.MESSAGE?.REQUIRED_ERROR || '',
+          },
+          SUBMIT_BUTTON: data.FORM?.SUBMIT_BUTTON || '',
+        },
+        CONTACT_INFO: {
+          EMAIL_LABEL: data.CONTACT_INFO?.EMAIL_LABEL || '',
+          EMAIL: data.CONTACT_INFO?.EMAIL || '',
+          TEL_LABEL: data.CONTACT_INFO?.TEL_LABEL || '',
+          TEL: data.CONTACT_INFO?.TEL || '',
+        },
+      }))
+    );
+  }
+
   getProjects(category: string, subcategory: string | null): Observable<any> {
     const language = this.getCurrentLanguage();
 

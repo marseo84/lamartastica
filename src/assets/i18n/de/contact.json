@@ -1,1 +1,31 @@
-{}
+{
+  "TITLE": "Kontakt",
+  "DESCRIPTION": {
+    "LINE_1": "Nutzen Sie das untenstehende Formular, um mich zu kontaktieren.",
+    "LINE_2": "Ich werde mich so schnell wie möglich bei Ihnen melden."
+  },
+  "FORM": {
+    "NAME": {
+      "LABEL": "Name:",
+      "PLACEHOLDER": "Ihr Name",
+      "REQUIRED_ERROR": "Name ist erforderlich."
+    },
+    "EMAIL": {
+      "LABEL": "E-Mail:",
+      "PLACEHOLDER": "Ihre E-Mail",
+      "REQUIRED_ERROR": "Eine gültige E-Mail-Adresse ist erforderlich."
+    },
+    "MESSAGE": {
+      "LABEL": "Nachricht:",
+      "PLACEHOLDER": "Ihre Nachricht",
+      "REQUIRED_ERROR": "Nachricht ist erforderlich."
+    },
+    "SUBMIT_BUTTON": "Senden"
+  },
+  "CONTACT_INFO": {
+    "EMAIL_LABEL": "E-Mail:",
+    "EMAIL": "lamartastica@gmail.com",
+    "TEL_LABEL": "Tel.:",
+    "TEL": "+43 676 5014830"
+  }
+}

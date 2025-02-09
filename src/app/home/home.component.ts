@@ -13,7 +13,7 @@ import { log } from 'console';
   animations: [
     trigger('fadeSlideUp', [
       transition(
-        'in => in',
+        ':enter',
         [
           style({
             opacity: 0,

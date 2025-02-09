@@ -1,5 +1,87 @@
 {
-  "HEADER": "About Me",
-  "INTRO": "Hi, I'm Marta, a passionate designer specializing in...",
-  "HISTORY": "With over 10 years of experience, I have worked with clients from..."
+  "HERO": {
+    "TITLE": "O mně",
+    "SUBTITLE": "Ahoj, jmenuji se Marta",
+    "INTRO": [
+      " vášnivá vizuální vypravěčka specializující se na ",
+      "grafický design,",
+      "motion grafiku",
+      "a ilustraci"
+    ]
+  },
+  "BODY": {
+    "SECTIONS": [
+      {
+        "HEADING": "Úvod: Vystupte z davu",
+        "TEXT": [
+          "Ve světě vizuálního hluku je snadné se v davu ztratit. Ale váš příběh si zaslouží být viděn a slyšen. Jsem Marta Tendero, vášnivá vizuální vypravěčka specializující se na grafický design, motion grafiku a ilustraci. Pomáhám značkám, jako je ta vaše, probojovat se změti a propojit se s publikem na hlubší úrovni."
+        ]
+      },
+      {
+        "HEADING": "Moje filozofie designu: Zachycení vaší podstaty",
+        "TEXT": [
+          "Věřím, že skvělý design je víc než jen estetika; jde o zachycení podstaty vaší značky a její převedení do vizuálů, které rezonují. Moje silné estetické cítění a intuitivní chápání barev mi umožňují vytvářet designy, které jsou nejen vizuálně ohromující, ale i emocionálně poutavé. Od výběru dokonalých odstínů až po vytváření působivých příběhů, s vášní oživuji vaši vizi."
+        ]
+      },
+      {
+        "HEADING": "Technické znalosti: Nástroje, které používám",
+        "TEXT": [
+          "Moje sada nástrojů zahrnuje standardní software, jako je Adobe Creative Suite (After Effects, Illustrator, Photoshop) pro profesionální projekty, spolu s Procreate a Canvou pro rychlé prototypování a všestranné aplikace."
+        ]
+      },
+      {
+        "HEADING": "Řešení vašich vizuálních problémů: Jak mohu pomoci",
+        "LIST": {
+          "HEADING": null,
+          "ITEMS": [
+            {
+              "KEY": "Moderní identity značek:",
+              "DESCRIPTION": "Oživení vaší vizuální prezentace s cílem přilákat a zaujmout dnešní zákazníky."
+            },
+            {
+              "KEY": "Působivé vizuální příběhy:",
+              "DESCRIPTION": "Vyprávění příběhu vaší značky způsobem, který diváky uchvátí a zdůrazní vaši jedinečnou hodnotu."
+            },
+            {
+              "KEY": "Výrazné a zapamatovatelné designy:",
+              "DESCRIPTION": "Vytváření vizuálů, které vás odliší od konkurence a posílí identitu vaší značky."
+            },
+            {
+              "KEY": "Strategické marketingové materiály:",
+              "DESCRIPTION": "Navrhování podkladů, které podpoří růst podnikání a uvolní vám čas, abyste se mohli soustředit na to, co umíte nejlépe."
+            }
+          ]
+        }
+      },
+      {
+        "HEADING": "Mé služby: Uvedení vaší vize do života",
+        "TEXT": [
+          "Vytvářím poutavé vizuály, včetně ilustrací a animací, které upoutají pozornost, zapamatovatelně sdělují vaše poselství a přinášejí výsledky na sociálních sítích, webových stránkách a v marketingových kampaních. Tuto vysoce kvalitní práci dodávám efektivně a včas a držím se vašeho rozpočtu."
+        ]
+      },
+      {
+        "HEADING": "Jste připraveni zazářit?",
+        "TEXT": [
+          "Pojďme si promluvit o tom, jak vám mohu pomoci krásně vyprávět váš příběh."
+        ]
+      },
+      {
+        "HEADING": "",
+        "TEXT": []
+      },
+      {
+        "HEADING": "",
+        "TEXT": []
+      }
+    ],
+    "FEATURES": [],
+    "testimonials": [],
+    "faqs": []
+  },
+  "CTA": {
+    "HEADING": null,
+    "TEXT": null,
+    "BUTTON": null,
+    "URL": null
+  }
 }

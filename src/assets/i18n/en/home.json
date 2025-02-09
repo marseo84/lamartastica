@@ -18,11 +18,21 @@
     ]
   },
   "CTA": {
-    "TITLE": "",
+    "HEADING": "",
+    "TEXT": "",
     "ITEMS": [
-      "grab your audience's attention",
-      "stick in their minds",
-      "become their #1"
+      {
+        "BUTTON": "Explore my work",
+        "PATH": "/projects/motion-graphics"
+      },
+      {
+        "BUTTON": "Get to know me",
+        "PATH": "/about"
+      },
+      {
+        "BUTTON": "Let's talk",
+        "PATH": "/contact"
+      }
     ]
   }
 }

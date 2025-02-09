@@ -1,1 +1,31 @@
-{}
+{
+  "TITLE": "Contact",
+  "DESCRIPTION": {
+    "LINE_1": "Reach out to me using the form below.",
+    "LINE_2": "I'll get back to you rather sooner than later."
+  },
+  "FORM": {
+    "NAME": {
+      "LABEL": "Name:",
+      "PLACEHOLDER": "Your Name",
+      "REQUIRED_ERROR": "Name is required."
+    },
+    "EMAIL": {
+      "LABEL": "Email:",
+      "PLACEHOLDER": "Your Email",
+      "REQUIRED_ERROR": "A valid email is required."
+    },
+    "MESSAGE": {
+      "LABEL": "Message:",
+      "PLACEHOLDER": "Your Message",
+      "REQUIRED_ERROR": "Message is required."
+    },
+    "SUBMIT_BUTTON": "Send"
+  },
+  "CONTACT_INFO": {
+    "EMAIL_LABEL": "email:",
+    "EMAIL": "lamartastica@gmail.com",
+    "TEL_LABEL": "tel.:",
+    "TEL": "+43 676 5014830"
+  }
+}

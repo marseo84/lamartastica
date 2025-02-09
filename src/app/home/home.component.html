@@ -62,7 +62,7 @@
 
   <!-- CTA - START -->
   <section class="cta-section card-section">
-    <a routerLink="/projects/motion-graphics">
+    <!-- <a routerLink="/projects/motion-graphics">
       <div
         appInViewport
         (visible)="onElementVisible($event)"
@@ -100,7 +100,24 @@
       >
         Let's talk
       </div>
+    </a> -->
+
+    <!-- @for (item of homeData.body.ITEMS; track item) { -->
+    @for (ctaItem of homeData.cta.ITEMS; track ctaItem) {
+    <a [routerLink]="ctaItem.PATH">
+      <!-- <div class="cta-card card">{{ ctaItem.BUTTON }}</div> -->
+      <div
+        appInViewport
+        (visible)="onElementVisible($event)"
+        [@fadeSlideUp]="{ params: { delay: getAnimationDelay(1) } }"
+        class="cta-card card"
+      >
+        {{ ctaItem.BUTTON }}
+      </div>
     </a>
+
+    }
   </section>
+
   <!-- CTA - END -->
 </div>

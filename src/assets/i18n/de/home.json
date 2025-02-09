@@ -1,11 +1,99 @@
 {
   "HERO": {
-    "TITLE": "Welcome to La Martastica",
-    "SUBTITLE": "Creative solutions for your brand",
-    "CTA": "Explore My Work"
+    "TITLE": "Über mich",
+    "SUBTITLE": "Hallo, mein Name ist Marta",
+    "INTRO": [
+      " eine leidenschaftliche visuelle Geschichtenerzählerin, spezialisiert auf ",
+      "Grafikdesign,",
+      "Motion Graphics und",
+      "Illustration."
+    ]
   },
-  "FEATURES": {
-    "TITLE": "Why Choose Me?",
-    "ITEMS": ["Unique Designs", "Attention to Detail", "Timely Delivery"]
+  "BODY": {
+    "SECTIONS": [
+      {
+        "HEADING": "Einleitung: Heben Sie sich von der Masse ab",
+        "TEXT": [
+          "In einer Welt voller visueller Reize ist es leicht, in der Masse unterzugehen. Aber Ihre Geschichte verdient es, gesehen und gehört zu werden. Ich bin Marta Tendero, eine leidenschaftliche visuelle Geschichtenerzählerin, spezialisiert auf Grafikdesign, Motion Graphics und Illustration. Ich helfe Marken wie Ihrer, sich von der Masse abzuheben und eine tiefere Verbindung zu ihrer Zielgruppe aufzubauen."
+        ]
+      },
+      {
+        "HEADING": "Meine Designphilosophie: Ihre Essenz einfangen",
+        "TEXT": [
+          "Ich glaube, dass großartiges Design mehr ist als nur Ästhetik; es geht darum, die Essenz Ihrer Marke zu erfassen und sie in Bilder zu übersetzen, die ankommen. Mein starkes ästhetisches Empfinden und mein intuitives Verständnis von Farbe ermöglichen es mir, Designs zu schaffen, die nicht nur optisch atemberaubend, sondern auch emotional ansprechend sind. Von der Auswahl der perfekten Farbtöne bis hin zur Gestaltung überzeugender Geschichten - ich setze Ihre Vision mit Leidenschaft um."
+        ]
+      },
+      {
+        "HEADING": "Technische Expertise: Die Tools, die ich verwende",
+        "TEXT": [
+          "Mein Toolkit umfasst branchenübliche Software wie die Adobe Creative Suite (After Effects, Illustrator, Photoshop) für professionelle Projekte sowie Procreate und Canva für Rapid Prototyping und vielseitige Anwendungen."
+        ]
+      },
+      {
+        "HEADING": "Lösung Ihrer visuellen Herausforderungen: Wie ich helfen kann",
+        "LIST": {
+          "HEADING": null,
+          "ITEMS": [
+            {
+              "KEY": "Moderne Markenidentitäten:",
+              "DESCRIPTION": "Erfrischung Ihres visuellen Auftritts, um die Kunden von heute anzuziehen und zu begeistern."
+            },
+            {
+              "KEY": "Überzeugende visuelle Erzählungen:",
+              "DESCRIPTION": "Erzählen Sie Ihre Markengeschichte auf eine Weise, die Ihr Publikum fesselt und Ihren einzigartigen Wert hervorhebt."
+            },
+            {
+              "KEY": "Unverwechselbare & einprägsame Designs:",
+              "DESCRIPTION": "Erstellung von Visuals, die Sie von der Konkurrenz abheben und Ihre Markenidentität stärken."
+            },
+            {
+              "KEY": "Strategische Marketingmaterialien:",
+              "DESCRIPTION": "Gestaltung von Assets, die das Unternehmenswachstum fördern und Ihnen Zeit verschaffen, sich auf das zu konzentrieren, was Sie am besten können."
+            }
+          ]
+        }
+      },
+      {
+        "HEADING": "Meine Dienstleistungen: Ihre Vision zum Leben erwecken",
+        "TEXT": [
+          "Ich erstelle ansprechende Visuals, einschließlich Illustrationen und Animationen, die Aufmerksamkeit erregen, Ihre Botschaft einprägsam kommunizieren und in sozialen Medien, Websites und Marketingkampagnen Ergebnisse erzielen. Ich liefere diese qualitativ hochwertige Arbeit effizient und termingerecht und halte mich dabei an Ihr Budget."
+        ]
+      },
+      {
+        "HEADING": "Bereit zu glänzen?",
+        "TEXT": [
+          "Lassen Sie uns darüber sprechen, wie ich Ihnen helfen kann, Ihre Geschichte auf schöne Weise zu erzählen."
+        ]
+      },
+      {
+        "HEADING": "",
+        "TEXT": []
+      },
+      {
+        "HEADING": "",
+        "TEXT": []
+      }
+    ],
+    "FEATURES": [],
+    "testimonials": [],
+    "faqs": []
+  },
+  "CTA": {
+    "HEADING": "",
+    "TEXT": "",
+    "ITEMS": [
+      {
+        "BUTTON": "Meine Arbeit",
+        "PATH": "/projects/motion-graphics"
+      },
+      {
+        "BUTTON": "Über mich",
+        "PATH": "/about"
+      },
+      {
+        "BUTTON": "Kontakt",
+        "PATH": "/contact"
+      }
+    ]
   }
 }
