@@ -3,12 +3,14 @@
 }
 
 .profile-image-wrapper {
-  @apply flex justify-center items-center w-full max-w-sm mb-4 md:mb-0 md:max-w-xs lg:max-w-md;
+  /* @apply flex justify-center items-center w-full max-w-sm mb-4 md:mb-0 md:max-w-xs lg:max-w-md; */
+  @apply flex justify-center items-center w-full max-w-sm mb-4 md:mb-0 md:max-w-xs lg:max-w-md; /* Keep max-w */
 }
 
 .profile-image {
   /* @apply rounded-full shadow-lg border-2 border-primary-bg md:rounded-md; */
-  @apply rounded-full shadow-lg  md:rounded-md;
+  /* @apply rounded-full shadow-lg  md:rounded-md; */
+  @apply rounded-full shadow-lg md:rounded-md h-auto w-auto max-h-48 md:max-h-80; /* Control height and width */
 }
 
 .column {

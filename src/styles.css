@@ -6,7 +6,8 @@
 /* TYPOGRAPHY */
 @layer base {
   body {
-    @apply font-sans leading-relaxed text-gray-200 bg-gradient-to-b from-primary via-secondary to-quaternary;
+    /* @apply font-sans leading-relaxed text-gray-200 bg-gradient-to-b from-primary via-secondary to-quaternary; */
+    @apply font-sans leading-relaxed text-primary-text bg-primary-bg;
   }
 
   h1,

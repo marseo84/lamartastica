@@ -8,9 +8,9 @@ module.exports = {
         body: ["Open Sans", "sans-serif"],
       },
       colors: {
-        primary: "#E6AB30",
-        secondary: "#4bc1bd",
-        tertiary: "#6f0f3e",
+        primary: "#F8F6F2",
+        secondary: "#6F0F3E",
+        tertiary: "#106070",
         quaternary: "#080623",
         "primary-text": "#f2efdf",
         "secondary-text": "#0d0d0d",

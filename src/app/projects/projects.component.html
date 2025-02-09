@@ -1,10 +1,66 @@
-<div class="projects-container">
+<!-- <div class="projects-container">
   <h1 *ngIf="category">
     {{ category | titlecase }}
     <span *ngIf="subcategory">- {{ subcategory | titlecase }}</span> Projects
   </h1>
 
   <div class="project-list">
+    <div
+      *ngFor="let project of projects; trackBy: trackByFn"
+      class="project-card"
+    >
+      <h3 class="project-title">{{ project.title }}</h3>
+      <p class="project-description">{{ project.description }}</p>
+
+      <swiper-container
+        class="swiper-container"
+        *ngIf="project.media?.length > 0"
+        [pagination]="{ clickable: true }"
+        [navigation]="true"
+        [loop]="true"
+        [spaceBetween]="20"
+        [speed]="800"
+      >
+        <swiper-slide *ngFor="let media of project.media" class="swiper-slide">
+          <ng-container *ngIf="media.type === 'image'; else videoTemplate">
+            <div class="project-image-wrapper">
+              <img
+                [src]="media.src"
+                [alt]="project.title"
+                class="project-image"
+              />
+            </div>
+          </ng-container>
+          <ng-template #videoTemplate>
+            <div class="vimeo-wrapper">
+              <app-vimeo-player
+                [jsonData]="media"
+                [autoplay]="false"
+                [loop]="true"
+                [muted]="true"
+                [controls]="true"
+                [responsive]="true"
+                [color]="'#FF5733'"
+                [title]="false"
+                [byline]="false"
+                [portrait]="false"
+                [texttrack]="'en'"
+              ></app-vimeo-player>
+            </div>
+          </ng-template>
+        </swiper-slide>
+      </swiper-container>
+    </div>
+  </div>
+</div> -->
+
+<div class="projects-container">
+  <h1 *ngIf="category">
+    {{ category | titlecase }}
+    <span *ngIf="subcategory">- {{ subcategory | titlecase }}</span> Projects
+  </h1>
+
+  <div class="project-list md:grid md:grid-cols-2 md:gap-4">
     <div
       *ngFor="let project of projects; trackBy: trackByFn"
       class="project-card"
