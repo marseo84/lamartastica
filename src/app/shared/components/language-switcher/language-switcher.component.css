@@ -12,8 +12,12 @@
   }
 }
 
-.active {
-  /* border: 2px solid #f2efdf;
+/* .curLang { */
+/* border: 2px solid #f2efdf;
   border-radius: 2px; */
-  @apply border-2 border-secondary-bg rounded;
+/* @apply border-2 border-secondary-bg rounded; */
+/* } */
+
+.language-switcher .language-selector.curLang {
+  @apply border border-secondary-bg rounded;
 }

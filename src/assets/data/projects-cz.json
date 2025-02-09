@@ -643,22 +643,7 @@
           "order": 2
         }
       ],
-      "projectsWithoutSubcategory": [
-        {
-          "id": 103,
-          "title": "Placeholder Standalone Project",
-          "description": "Standalone graphic design project placeholder.",
-          "media": [
-            {
-              "type": "image",
-              "design_type": "artwork",
-              "src": "https://via.placeholder.com/600x400"
-            }
-          ],
-          "url": "/projects/graphic-design/placeholder-standalone-project",
-          "order": 1
-        }
-      ]
+      "projectsWithoutSubcategory": []
     },
     {
       "id": 3,
@@ -670,45 +655,8 @@
           "id": 1,
           "name": "Digital Art",
           "slug": "digital-art",
-          "projects": [
-            {
-              "id": 201,
-              "title": "Placeholder Project 1",
-              "description": "",
-              "media": [
-                {
-                  "type": "image",
-                  "design_type": "artwork",
-                  "src": "https://via.placeholder.com/600x400"
-                }
-              ],
-              "url": "/projects/illustrations/digital-art/placeholder-project-1",
-              "order": 1
-            }
-          ],
+          "projects": [],
           "order": 1
-        },
-        {
-          "id": 2,
-          "name": "Traditional Art",
-          "slug": "traditional-art",
-          "projects": [
-            {
-              "id": 202,
-              "title": "Placeholder Project 2",
-              "description": "",
-              "media": [
-                {
-                  "type": "image",
-                  "design_type": "artwork",
-                  "src": "https://via.placeholder.com/600x400"
-                }
-              ],
-              "url": "/projects/illustrations/traditional-art/placeholder-project-2",
-              "order": 1
-            }
-          ],
-          "order": 2
         }
       ],
       "projectsWithoutSubcategory": [

@@ -2,28 +2,28 @@
   <button
     (click)="switchLanguage('en')"
     class="language-selector"
-    [ngClass]="{ active: selectedLanguage === 'en' }"
+    [ngClass]="{ curLang: selectedLanguage === 'en' }"
   >
     EN
   </button>
   <button
     (click)="switchLanguage('de')"
     class="language-selector"
-    [ngClass]="{ active: selectedLanguage === 'de' }"
+    [ngClass]="{ curLang: selectedLanguage === 'de' }"
   >
     DE
   </button>
   <button
     (click)="switchLanguage('es')"
     class="language-selector"
-    [ngClass]="{ active: selectedLanguage === 'es' }"
+    [ngClass]="{ curLang: selectedLanguage === 'es' }"
   >
     ES
   </button>
   <button
     (click)="switchLanguage('cz')"
     class="language-selector"
-    [ngClass]="{ active: selectedLanguage === 'cz' }"
+    [ngClass]="{ curLang: selectedLanguage === 'cz' }"
   >
     CZ
   </button>
