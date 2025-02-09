@@ -1,82 +1,21 @@
 {
   "HERO": {
-    "TITLE": "Sobre mí",
-    "SUBTITLE": "Hola, mi nombre es Marta",
-    "INTRO": [
-      " una apasionada narradora visual especializada en ",
-      "diseño gráfico,",
-      "gráficos en movimiento, e",
-      "ilustración."
-    ]
+    "TITLES": ["Motion Graphics", "Diseño Gráfico", "Ilustración"],
+    "SUBTITLE": "¡Cuenta tus historias bellamente!",
+    "CTA": "Explora mi trabajo"
   },
   "BODY": {
-    "SECTIONS": [
-      {
-        "HEADING": "Introducción: Destaca entre la multitud",
-        "TEXT": [
-          "En un mundo de ruido visual, es fácil perderse entre la multitud. Pero tu historia merece ser vista y escuchada. Soy Marta Tendero, una apasionada narradora visual especializada en diseño gráfico, gráficos en movimiento e ilustración. Ayudo a marcas como la tuya a abrirse paso entre el ruido y conectar con su audiencia a un nivel más profundo."
-        ]
-      },
-      {
-        "HEADING": "Mi filosofía de diseño: Capturando tu esencia",
-        "TEXT": [
-          "Creo que un gran diseño es más que solo estética; se trata de capturar la esencia de tu marca y traducirla en imágenes que resuenen. Mi gran sensibilidad estética y mi comprensión intuitiva del color me permiten crear diseños que no solo son visualmente impresionantes, sino también emocionalmente atractivos. Desde elegir los tonos perfectos hasta crear narrativas convincentes, me apasiona dar vida a tu visión."
-        ]
-      },
-      {
-        "HEADING": "Experiencia técnica: Las herramientas que utilizo",
-        "TEXT": [
-          "Mi conjunto de herramientas incluye software estándar de la industria como Adobe Creative Suite (After Effects, Illustrator, Photoshop) para proyectos profesionales, junto con Procreate y Canva para prototipos rápidos y aplicaciones versátiles."
-        ]
-      },
-      {
-        "HEADING": "Resolviendo tus desafíos visuales: Cómo puedo ayudar",
-        "LIST": {
-          "HEADING": null,
-          "ITEMS": [
-            {
-              "KEY": "Identidades de marca modernas:",
-              "DESCRIPTION": "Refrescando tu presencia visual para atraer e involucrar a los clientes de hoy."
-            },
-            {
-              "KEY": "Narrativas visuales convincentes:",
-              "DESCRIPTION": "Contar la historia de tu marca de una manera que cautive a tu audiencia y resalte tu valor único."
-            },
-            {
-              "KEY": "Diseños distintivos y memorables:",
-              "DESCRIPTION": "Crear imágenes que te diferencien de la competencia y refuercen la identidad de tu marca."
-            },
-            {
-              "KEY": "Materiales de marketing estratégicos:",
-              "DESCRIPTION": "Diseñar activos que impulsen el crecimiento empresarial y liberen tu tiempo para que te concentres en lo que mejor sabes hacer."
-            }
-          ]
-        }
-      },
-      {
-        "HEADING": "Mis servicios: Dando vida a tu visión",
-        "TEXT": [
-          "Creo imágenes atractivas, incluidas ilustraciones y animaciones, que captan la atención, comunican tu mensaje de manera memorable e impulsan resultados en las redes sociales, sitios web y campañas de marketing. Entrego este trabajo de alta calidad de manera eficiente y a tiempo, manteniéndome dentro de tu presupuesto."
-        ]
-      },
-      {
-        "HEADING": "¿Listo para brillar?",
-        "TEXT": [
-          "Hablemos sobre cómo puedo ayudarte a contar tu historia de manera hermosa."
-        ]
-      },
-      {
-        "HEADING": "",
-        "TEXT": []
-      },
-      {
-        "HEADING": "",
-        "TEXT": []
-      }
+    "TITLE": "¿Quieres tú?",
+    "LIST": [
+      "captar la atención de tu audiencia",
+      "quedar en sus mentes",
+      "convertirte en su #1"
     ],
-    "FEATURES": [],
-    "testimonials": [],
-    "faqs": []
+    "ITEMS": [
+      "Soluciones visuales creativas y sobresalientes",
+      "adaptadas a tu historia y a tu audiencia",
+      "¡pueden ayudarte a hacer eso!"
+    ]
   },
   "CTA": {
     "HEADING": "",

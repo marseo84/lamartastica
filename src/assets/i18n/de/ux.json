@@ -1,26 +1,26 @@
 {
   "NAV": {
-    "HOME": "Inicio",
-    "ABOUT": "Sobre Mí",
-    "SERVICES": "Servicios",
-    "SERVICES_CATEGORIES": "Visión General",
+    "HOME": "Startseite",
+    "ABOUT": "Über Mich",
+    "SERVICES": "Leistungen",
+    "SERVICES_CATEGORIES": "Übersicht",
     "SERVICES_MOTION_GRAPHICS": "Motion Graphics",
-    "SERVICES_GRAPHIC_DESIGN": "Diseño Gráfico",
-    "SERVICES_ILLUSTRATION": "Ilustración",
-    "PROJECTS": "Proyectos",
-    "PROJECTS_CATEGORIES": "Visión General",
+    "SERVICES_GRAPHIC_DESIGN": "Grafikdesign",
+    "SERVICES_ILLUSTRATION": "Illustration",
+    "PROJECTS": "Projekte",
+    "PROJECTS_CATEGORIES": "Übersicht",
     "PROJECTS_MOTION_GRAPHICS": "Motion Graphics",
-    "PROJECTS_GRAPHIC_DESIGN": "Diseño Gráfico",
-    "PROJECTS_ILLUSTRATION": "Ilustración",
-    "CONTACT": "Contacto"
+    "PROJECTS_GRAPHIC_DESIGN": "Grafikdesign",
+    "PROJECTS_ILLUSTRATION": "Illustration",
+    "CONTACT": "Kontakt"
   },
   "FOOTER": {
-    "COPYRIGHT": "© 2024 La Martastica. Todos los derechos reservados.",
-    "FOLLOW_US": "Síguenos en redes sociales"
+    "COPYRIGHT": "© 2024 La Martastica. Alle Rechte vorbehalten.",
+    "FOLLOW_US": "Folge uns auf Social Media"
   },
   "BUTTONS": {
-    "LEARN_MORE": "Más Información",
-    "SUBMIT": "Enviar",
-    "CANCEL": "Cancelar"
+    "LEARN_MORE": "Mehr Erfahren",
+    "SUBMIT": "Absenden",
+    "CANCEL": "Abbrechen"
   }
 }

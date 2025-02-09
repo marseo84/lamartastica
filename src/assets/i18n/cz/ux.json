@@ -1,26 +1,26 @@
 {
   "NAV": {
-    "HOME": "Inicio",
-    "ABOUT": "Sobre Mí",
-    "SERVICES": "Servicios",
-    "SERVICES_CATEGORIES": "Visión General",
+    "HOME": "Domů",
+    "ABOUT": "O mně",
+    "SERVICES": "Služby",
+    "SERVICES_CATEGORIES": "Přehled",
     "SERVICES_MOTION_GRAPHICS": "Motion Graphics",
-    "SERVICES_GRAPHIC_DESIGN": "Diseño Gráfico",
-    "SERVICES_ILLUSTRATION": "Ilustración",
-    "PROJECTS": "Proyectos",
-    "PROJECTS_CATEGORIES": "Visión General",
+    "SERVICES_GRAPHIC_DESIGN": "Grafický design",
+    "SERVICES_ILLUSTRATION": "Ilustrace",
+    "PROJECTS": "Projekty",
+    "PROJECTS_CATEGORIES": "Přehled",
     "PROJECTS_MOTION_GRAPHICS": "Motion Graphics",
-    "PROJECTS_GRAPHIC_DESIGN": "Diseño Gráfico",
-    "PROJECTS_ILLUSTRATION": "Ilustración",
-    "CONTACT": "Contacto"
+    "PROJECTS_GRAPHIC_DESIGN": "Grafický design",
+    "PROJECTS_ILLUSTRATION": "Ilustrace",
+    "CONTACT": "Kontakt"
   },
   "FOOTER": {
-    "COPYRIGHT": "© 2024 La Martastica. Todos los derechos reservados.",
-    "FOLLOW_US": "Síguenos en redes sociales"
+    "COPYRIGHT": "© 2024 La Martastica. Všechna práva vyhrazena.",
+    "FOLLOW_US": "Sledujte nás na sociálních sítích"
   },
   "BUTTONS": {
-    "LEARN_MORE": "Más Información",
-    "SUBMIT": "Enviar",
-    "CANCEL": "Cancelar"
+    "LEARN_MORE": "Zjistit Více",
+    "SUBMIT": "Odeslat",
+    "CANCEL": "Zrušit"
   }
 }

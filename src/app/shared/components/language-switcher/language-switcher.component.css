@@ -1,8 +1,15 @@
 .language-selector {
   cursor: pointer;
-  margin: 0.3em;
+  margin: 0 0 1em 0;
   padding: 0.2em;
+
   @apply text-primary-text;
+}
+
+@media only screen and (min-width: 769px) {
+  .language-selector {
+    margin: 0.3em;
+  }
 }
 
 .active {
