@@ -148,4 +148,8 @@ export class DataService {
       .get<ServiceCategory>(`/assets/data/services-${language}.json`)
       .pipe(map((data: ServiceCategory) => data[category] || []));
   }
+
+  getMeta(page: string): Observable<any> {
+    return this.fetchJSON<any>('meta').pipe(map((data) => data[page] || {}));
+  }
 }

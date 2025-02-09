@@ -1,10 +1,11 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
-import { Subscription } from 'rxjs';
+import { Subscription, forkJoin } from 'rxjs';
 import { TranslateService } from '@ngx-translate/core';
 import { DataService } from '../shared/services/data.service';
 // import { HomeData } from '../shared/models/home.model';
 import { trigger, style, animate, transition } from '@angular/animations';
-import { log } from 'console';
+// import { log } from 'console';
+import { Meta, Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-home',
@@ -41,7 +42,9 @@ export class HomeComponent implements OnInit, OnDestroy {
 
   constructor(
     private dataService: DataService,
-    private translateService: TranslateService
+    private translateService: TranslateService,
+    private meta: Meta,
+    private titleService: Title
   ) {}
 
   ngOnInit(): void {
@@ -56,19 +59,56 @@ export class HomeComponent implements OnInit, OnDestroy {
     );
   }
 
+  // loadHomeData(): void {
+  //   this.dataService.getHome().subscribe({
+  //     next: (data) => {
+  //       this.homeData = data;
+  //       console.log('Home data loaded:', data);
+  //     },
+  //     error: (error) => {
+  //       console.error('Error loading home data:', error);
+  //     },
+  //     complete: () => {
+  //       console.log('Home data loading complete.');
+  //     },
+  //   });
+  // }
+
   loadHomeData(): void {
-    this.dataService.getHome().subscribe({
-      next: (data) => {
-        this.homeData = data;
-        console.log('Home data loaded:', data);
-      },
-      error: (error) => {
-        console.error('Error loading home data:', error);
-      },
-      complete: () => {
-        console.log('Home data loading complete.');
-      },
-    });
+    forkJoin([this.dataService.getHome(), this.dataService.getMeta('home')]) // Use forkJoin
+      .subscribe({
+        next: ([homeData, metaData]) => {
+          // Destructure the results
+          this.homeData = homeData;
+
+          // Set Meta Tags
+          this.titleService.setTitle(metaData.title); //Set the title
+          this.meta.updateTag({
+            name: 'description',
+            content: metaData.description,
+          });
+          this.meta.updateTag({ name: 'keywords', content: metaData.keywords });
+
+          //Open graph tags
+          this.meta.updateTag({
+            property: 'og:title',
+            content: metaData.title,
+          });
+          this.meta.updateTag({
+            property: 'og:description',
+            content: metaData.description,
+          });
+          // ... set other meta tags (og:image, twitter card, etc.)
+          console.log('Home data loaded:', homeData);
+          console.log('Meta data loaded:', metaData);
+        },
+        error: (error) => {
+          console.error('Error loading home data:', error);
+        },
+        complete: () => {
+          console.log('Home data loading complete.');
+        },
+      });
   }
 
   ngOnDestroy(): void {
