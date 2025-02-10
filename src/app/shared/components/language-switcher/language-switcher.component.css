@@ -3,7 +3,7 @@
   margin: 0 0 1em 0;
   padding: 0.2em;
 
-  @apply text-primary-text;
+  @apply text-primary-text md:text-secondary-text;
 }
 
 @media only screen and (min-width: 769px) {
@@ -19,5 +19,5 @@
 /* } */
 
 .language-switcher .language-selector.curLang {
-  @apply border border-secondary-bg rounded;
+  @apply border border-secondary-bg md:border-secondary-text rounded;
 }

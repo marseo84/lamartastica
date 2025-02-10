@@ -7,7 +7,7 @@
 @layer base {
   body {
     /* @apply font-sans leading-relaxed text-gray-200 bg-gradient-to-b from-primary via-secondary to-quaternary; */
-    @apply font-sans leading-relaxed text-primary-text bg-primary-bg;
+    @apply font-sans leading-relaxed text-secondary-text bg-secondary-bg;
   }
 
   h1,
@@ -98,14 +98,14 @@
 
   .card {
     @apply flex justify-center items-center p-6 mb-8 rounded-md text-2xl w-72;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
     /* box-shadow: 1px 1px 0px 0px rgba(255, 255, 255, 0.8); */
     transition: all 0.3s ease 0.05s;
   }
 
   .card:hover {
-    background-color: rgba(255, 255, 255, 0.05);
-    box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.8);
   }
 
   .card:hover a {

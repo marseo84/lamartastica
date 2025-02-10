@@ -47,14 +47,14 @@
 .form-btn-submit {
   cursor: pointer;
   padding: 0.5em 3em;
-  border: 1px solid white;
+  border: 1px solid black;
   border-radius: 4px;
   transition: all 0.3s ease 0.05s;
 }
 
 .form-btn-submit:hover {
-  background-color: rgba(255, 255, 255, 0.05);
-  box-shadow: 2px 2px 0px 0px rgba(255, 255, 255, 0.8);
+  background-color: rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.8);
 }
 
 /* .contact-item {

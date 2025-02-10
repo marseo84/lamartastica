@@ -1,4 +1,5 @@
 .content {
+  /* @apply flex flex-wrap flex-col items-center mx-auto; */
   @apply mx-auto;
   width: 90%;
 }

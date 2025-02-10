@@ -54,7 +54,7 @@ nav ul li {
 }
 
 .nav-link {
-  @apply text-primary-text;
+  @apply text-primary-text md:text-secondary-text;
   position: relative;
   cursor: pointer;
   width: 100%;
@@ -62,7 +62,7 @@ nav ul li {
 
 .nav-link::after {
   border-radius: 1em;
-  @apply border-t border-primary-text;
+  @apply border-t border-secondary-text;
   content: "";
   position: absolute;
   right: 100%;
@@ -136,7 +136,7 @@ nav ul li {
   height: 5px;
   width: 100%;
   /* background: #d3531a; */
-  @apply bg-secondary-bg;
+  @apply bg-gray-400;
 
   border-radius: 9px;
   opacity: 1;
