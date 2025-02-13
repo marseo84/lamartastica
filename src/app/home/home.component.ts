@@ -128,4 +128,12 @@ export class HomeComponent implements OnInit, OnDestroy {
       // Additional logic here
     }
   }
+
+  trackByFn(index: number, item: any): any {
+    return item; // Track by object reference (default)
+  }
+
+  trackByIndex(index: number): number {
+    return index; // Track by index
+  }
 }

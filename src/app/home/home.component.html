@@ -9,9 +9,15 @@
       />
     </div>
     <div class="titles-wrapper my-16">
-      @for (title of homeData.hero.TITLES; track title) {
+      <!-- @for (title of homeData.hero.TITLES; track title) {
       <h2 class="title animate-pop-in">{{ title }}</h2>
-      }
+      } -->
+      <h2
+        *ngFor="let title of homeData.hero.TITLES; trackBy: trackByFn"
+        class="title animate-pop-in"
+      >
+        {{ title }}
+      </h2>
     </div>
 
     <!-- <div class="subtitle">{{ aboutData.hero.SUBTITLE }}</div>
@@ -35,16 +41,27 @@
 
   <section class="content">
     <h2 class="text-center text-2xl my-8">{{ homeData.body.TITLE }}</h2>
-    @for (listItem of homeData.body.LIST; track listItem) {
+    <!-- @for (listItem of homeData.body.LIST; track listItem) {
     <div class="text-center text-3xl mb-6">{{ listItem }}</div>
     <div class="text-center">▼</div>
-    }
+    } -->
+    <div
+      *ngFor="let listItem of homeData.body.LIST; trackBy: trackByFn"
+      class="text-center text-3xl mb-6"
+    >
+      {{ listItem }}
+    </div>
+    <div class="text-center">▼</div>
 
     <p class="text-center my-20 text-2xl">
-      @for (item of homeData.body.ITEMS; track item) {
+      <!-- @for (item of homeData.body.ITEMS; track item) {
       <span>{{ item }}</span
       ><br />
-      }
+      } -->
+
+      <span *ngFor="let item of homeData.body.ITEMS; trackBy: trackByFn">
+        {{ item }}<br />
+      </span>
     </p>
     <!-- <p class="subtitle text-center">
         I can help you tell your stories beautifully!
@@ -103,9 +120,11 @@
     </a> -->
 
     <!-- @for (item of homeData.body.ITEMS; track item) { -->
-    @for (ctaItem of homeData.cta.ITEMS; track ctaItem) {
+    <!-- @for (ctaItem of homeData.cta.ITEMS; track ctaItem) { -->
+
+    <!-- <div class="cta-card card">{{ ctaItem.BUTTON }}</div> -->
+    <!-- @for (ctaItem of homeData.cta.ITEMS; track $index) {
     <a [routerLink]="ctaItem.PATH">
-      <!-- <div class="cta-card card">{{ ctaItem.BUTTON }}</div> -->
       <div
         appInViewport
         (visible)="onElementVisible($event)"
@@ -115,8 +134,25 @@
         {{ ctaItem.BUTTON }}
       </div>
     </a>
-
-    }
+    } -->
+    <div
+      *ngFor="
+        let ctaItem of homeData.cta.ITEMS;
+        let i = index;
+        trackBy: trackByIndex
+      "
+    >
+      <a [routerLink]="ctaItem.PATH">
+        <div
+          appInViewport
+          (visible)="onElementVisible($event)"
+          [@fadeSlideUp]="{ params: { delay: getAnimationDelay(i) } }"
+          class="cta-card card"
+        >
+          {{ ctaItem.BUTTON }}
+        </div>
+      </a>
+    </div>
   </section>
 
   <!-- CTA - END -->
