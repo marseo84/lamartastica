@@ -16,7 +16,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
 import { UtilsService } from '../shared/services/utils.service';
 import { Swiper } from 'swiper';
-import { log } from 'console';
+// import { log } from 'console';
 
 @Component({
   selector: 'app-projects',
@@ -28,6 +28,10 @@ export class ProjectsComponent implements OnInit, OnDestroy, AfterViewInit {
   @ViewChildren('swiperContainer') swiperElements!: QueryList<ElementRef>;
   @ViewChild('swiper') swiper!: Swiper;
   @Input() projects: any[] = [];
+
+  isModalOpen = false;
+  modalImage: string = '';
+  modalTitle: string = '';
 
   category: string | null = null;
   subcategory: string | null = null;
@@ -127,6 +131,16 @@ export class ProjectsComponent implements OnInit, OnDestroy, AfterViewInit {
   trackByFn(index: number, item: any): number {
     // return index;
     return item.id || item.uniqueId || index.toString();
+  }
+
+  openModal(src: string, title: string) {
+    this.modalImage = src;
+    this.modalTitle = title;
+    this.isModalOpen = true;
+  }
+
+  closeModal() {
+    this.isModalOpen = false;
   }
 
   ngOnDestroy(): void {

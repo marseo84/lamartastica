@@ -85,7 +85,8 @@
               <img
                 [src]="media.src"
                 [alt]="project.title"
-                class="project-image"
+                class="project-image cursor-pointer"
+                (click)="openModal(media.src, project.title)"
               />
             </div>
           </ng-container>
@@ -108,6 +109,14 @@
           </ng-template>
         </swiper-slide>
       </swiper-container>
+    </div>
+  </div>
+
+  <!-- modal -->
+  <div *ngIf="isModalOpen" class="modal">
+    <div class="modal-content">
+      <span class="close-modal-btn" (click)="closeModal()">&times;</span>
+      <img [src]="modalImage" [alt]="modalTitle" class="modal-image" />
     </div>
   </div>
 </div>

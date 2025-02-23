@@ -36,12 +36,6 @@ export class ContactComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.loadContactData();
 
-    // this.translationService.onLangChange
-    //   .pipe(takeUntil(this.destroy$))
-    //   .subscribe(() => {
-    //     this.loadContactData();
-    //   });
-
     this.langChangeSubscription =
       this.translationService.onLangChange.subscribe(() => {
         this.loadContactData();
@@ -63,50 +57,14 @@ export class ContactComponent implements OnInit, OnDestroy {
     });
   }
 
-  // loadContactData(): void {
-  //   this.dataService
-  //     .getContact()
-  //     .pipe(takeUntil(this.destroy$))
-  //     .subscribe({
-  //       next: (data) => {
-  //         this.contactData = data;
-  //         console.log('Contact data loaded: ', data);
-  //       },
-  //       error: (error) => {
-  //         console.error('Error loading contact data:', error);
-  //       },
-  //       complete: () => {
-  //         console.log('Contact data loading complete.');
-  //       },
-  //     });
-  // }
-
   onSubmit() {
     if (this.contactForm.invalid) {
       return;
     }
 
     const headers = new HttpHeaders({ 'Content-Type': 'application/json' });
-    // const body = {
-    //   name: this.contactForm.value.name,
-    //   email: this.contactForm.value.email,
-    //   message: this.contactForm.value.message,
-    // };
 
     const body = this.contactForm.value;
-
-    // this.http
-    //   .post('https://formspree.io/f/meoqbkdn', body, { headers })
-    //   .subscribe(
-    //     (response: any) => {
-    //       console.log('Form submitted successfully', response);
-    //       this.contactForm.reset();
-    //       this.router.navigate(['/thank-you']);
-    //     },
-    //     (error: any) => {
-    //       console.error('Form submission error', error);
-    //     }
-    //   );
 
     this.http
       .post('https://formspree.io/f/meoqbkdn', body, { headers })
@@ -128,9 +86,4 @@ export class ContactComponent implements OnInit, OnDestroy {
       this.langChangeSubscription.unsubscribe();
     }
   }
-
-  // ngOnDestroy(): void {
-  //   this.destroy$.next();
-  //   this.destroy$.complete();
-  // }
 }

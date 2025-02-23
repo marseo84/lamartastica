@@ -38,11 +38,10 @@
 }
 
 .project-image-wrapper {
-  /* width: 100%; */
+  height: 50vh;
   width: auto;
-  max-height: 80dvh;
-  display: flex;
-  justify-content: center;
+  /* max-height: 80dvh; */
+  @apply flex justify-center items-center;
 }
 
 .project-image {
@@ -53,7 +52,8 @@
   /* max-width: 100%; */
   border-radius: 4px;
   margin-bottom: 10px;
-  object-fit: contain;
+  /* object-fit: contain; */
+  object-fit: cover;
 }
 
 .project-title {
@@ -79,3 +79,53 @@
 .project-link:hover {
   background-color: #0056b3;
 }
+
+/* modal - start */
+.modal {
+  position: fixed;
+  z-index: 15;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  /* width: 100dvw;
+  height: 100dvh; */
+  @apply flex justify-center items-center;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  /* @apply w-full sm:w-80 sm:p-2; */
+  max-width: 900px;
+  position: relative;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 0.2em;
+  right: 0.8em;
+  font-size: 2em;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+}
+
+.modal-image {
+  height: auto;
+  max-height: 90dvh;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* modal - end */
