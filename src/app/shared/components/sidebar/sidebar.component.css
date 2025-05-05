@@ -54,7 +54,7 @@ nav ul li {
 }
 
 .nav-link {
-  @apply text-primary-text md:text-secondary-text;
+  /* @apply text-white md:text-secondary-text; */
   position: relative;
   cursor: pointer;
   width: 100%;

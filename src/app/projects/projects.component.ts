@@ -27,7 +27,8 @@ import { Swiper } from 'swiper';
 export class ProjectsComponent implements OnInit, OnDestroy, AfterViewInit {
   @ViewChildren('swiperContainer') swiperElements!: QueryList<ElementRef>;
   @ViewChild('swiper') swiper!: Swiper;
-  @Input() projects: any[] = [];
+  // @Input() projects: any[] = [];
+  projects: any[] = [];
 
   isModalOpen = false;
   modalImage: string = '';
@@ -74,11 +75,11 @@ export class ProjectsComponent implements OnInit, OnDestroy, AfterViewInit {
     });
   }
 
-  ngOnChanges(changes: SimpleChanges): void {
-    if (changes['projects'] && this.swiper) {
-      this.swiper.update();
-    }
-  }
+  // ngOnChanges(changes: SimpleChanges): void {
+  //   if (changes['projects'] && this.swiper) {
+  //     this.swiper.update();
+  //   }
+  // }
 
   loadProjects(): void {
     if (this.category) {
@@ -122,7 +123,26 @@ export class ProjectsComponent implements OnInit, OnDestroy, AfterViewInit {
               }),
           }));
 
-          console.log(this.projects);
+          // after updating projects, destroy previous Swipers and recreate
+          setTimeout(() => {
+            this.swiperInstances.forEach((swiper) =>
+              swiper.destroy(true, true)
+            );
+            this.swiperInstances = [];
+
+            this.swiperElements.forEach((swiperEl) => {
+              const swiper = new Swiper(swiperEl.nativeElement, {
+                loop: true,
+                spaceBetween: 20,
+                speed: 800,
+                navigation: true,
+                pagination: { clickable: true },
+              });
+              this.swiperInstances.push(swiper);
+            });
+          }, 0);
+
+          // console.log(this.projects);
         });
     }
   }
