@@ -1,77 +1,55 @@
 {
   "HERO": {
     "TITLE": "Über mich",
-    "SUBTITLE": "Hallo, mein Name ist Marta",
+    "SUBTITLE": "Hallo, mein Name ist Marta Tendero",
     "INTRO": [
-      " eine leidenschaftliche visuelle Geschichtenerzählerin, spezialisiert auf ",
-      "Grafikdesign,",
+      "eine leidenschaftliche visuelle Geschichtenerzählerin, spezialisiert auf ",
       "Motion Graphics",
-      " und Illustration"
+      "Illustration",
+      "Grafikdesign"
     ]
   },
   "BODY": {
     "SECTIONS": [
       {
-        "HEADING": "Einleitung: Heben Sie sich von der Masse ab",
+        "HEADING": "Zeichnen, seit ich mich erinnern kann",
         "TEXT": [
-          "In einer Welt voller visueller Reize ist es leicht, in der Masse unterzugehen. Aber Ihre Geschichte verdient es, gesehen und gehört zu werden. Ich bin Marta Tendero, eine leidenschaftliche visuelle Geschichtenerzählerin, spezialisiert auf Grafikdesign, Motion Graphics und Illustration. Ich helfe Marken wie Ihrer, sich von der Masse abzuheben und eine tiefere Verbindung zu ihrer Zielgruppe aufzubauen."
+          "Dieser frühe Impuls entwickelte sich allmählich zu meiner Art, die Welt zu sehen und zu beschreiben: durch die lebendigen Linsen von Kunst, durchdachtem Design und fesselnder Animation.",
+          "Ich verfeinerte meine Fähigkeiten, indem ich meinen Hintergrund in Bildender Kunst durch eine Spezialisierung in Animation und Motion Graphics ergänzte. Heute bin ich als freiberuflicher Illustrator, Designer und Animator erfolgreich tätig.",
+          "Mich ziehen Visualisierungen an, die Resonanz erzeugen, Ästhetiken, die klar kommunizieren, und Bilder, die fesselnde Geschichten weben."
         ]
       },
       {
-        "HEADING": "Meine Designphilosophie: Ihre Essenz einfangen",
+        "HEADING": "Ich illustriere, animiere und gestalte",
         "TEXT": [
-          "Ich glaube, dass großartiges Design mehr ist als nur Ästhetik; es geht darum, die Essenz Ihrer Marke zu erfassen und sie in Bilder zu übersetzen, die ankommen. Mein starkes ästhetisches Empfinden und mein intuitives Verständnis von Farbe ermöglichen es mir, Designs zu schaffen, die nicht nur optisch atemberaubend, sondern auch emotional ansprechend sind. Von der Auswahl der perfekten Farbtöne bis hin zur Gestaltung überzeugender Geschichten - ich setze Ihre Vision mit Leidenschaft um."
+          "Manchmal erwecke ich statische Bilder zum Leben, ein anderes Mal erschaffe ich visuelle Erzählungen durch Animation, und oft löse ich Kommunikationsherausforderungen mit durchdachtem Design. Was mir wirklich wichtig ist, ist, dass das Endergebnis intentional, akribisch ausgearbeitet ist und etwas Authentisches vermittelt.",
+          "Mein Prozess verbindet das Taktile mit dem Digitalen. Ich integriere nahtlos manuelle Techniken mit modernsten Werkzeugen wie After Effects, Illustrator, Photoshop und Firefly, um animierte oder illustrierte Werke zu schaffen, die Ihr Publikum wirklich erreichen.",
+          "Ich arbeite gerne an vielfältigen Projekten, von kulturell bis kommerziell: denken Sie an markante Buchcover, ansprechende Social-Media-Videos und wirkungsvolle Grafik-Kampagnen."
         ]
       },
       {
-        "HEADING": "Technische Expertise: Die Tools, die ich verwende",
+        "HEADING": "Die Brücke zwischen Klassik und Digital",
         "TEXT": [
-          "Mein Toolkit umfasst branchenübliche Software wie die Adobe Creative Suite (After Effects, Illustrator, Photoshop) für professionelle Projekte sowie Procreate und Canva für Rapid Prototyping und vielseitige Anwendungen."
+          "Eine Linie, die Leben atmet, ein Rhythmus, der Emotionen weckt, eine Farbe, die eine Erinnerung entfacht… Ich finde Freude daran, von den subtilen Nuancen, den feinen Details auszugehen.",
+          "Ich passe meinen Ansatz an, indem ich sowohl traditionelle als auch digitale Techniken verwende und diese auf jedes einzigartige Projekt, jedes kollaborative Team oder jede Kernbotschaft zuschneide.",
+          "Jeder Auftrag ist für mich eine spannende Gelegenheit, visuell ausgefeilte und emotional resonante Bilder zu schaffen, die eine Geschichte erzählen. Wenn Sie eine Geschichte zu teilen haben, ist es meine Leidenschaft, die perfekte visuelle Sprache zu finden, um sie zum Leben zu erwecken."
         ]
       },
       {
-        "HEADING": "Lösung Ihrer visuellen Herausforderungen: Wie ich helfen kann",
-        "LIST": {
-          "HEADING": null,
-          "ITEMS": [
-            {
-              "KEY": "Moderne Markenidentitäten:",
-              "DESCRIPTION": "Erfrischung Ihres visuellen Auftritts, um die Kunden von heute anzuziehen und zu begeistern."
-            },
-            {
-              "KEY": "Überzeugende visuelle Erzählungen:",
-              "DESCRIPTION": "Erzählen Sie Ihre Markengeschichte auf eine Weise, die Ihr Publikum fesselt und Ihren einzigartigen Wert hervorhebt."
-            },
-            {
-              "KEY": "Unverwechselbare & einprägsame Designs:",
-              "DESCRIPTION": "Erstellung von Visuals, die Sie von der Konkurrenz abheben und Ihre Markenidentität stärken."
-            },
-            {
-              "KEY": "Strategische Marketingmaterialien:",
-              "DESCRIPTION": "Gestaltung von Assets, die das Unternehmenswachstum fördern und Ihnen Zeit verschaffen, sich auf das zu konzentrieren, was Sie am besten können."
-            }
-          ]
-        }
-      },
-      {
-        "HEADING": "Meine Dienstleistungen: Ihre Vision zum Leben erwecken",
+        "HEADING": "Visuelle Lösungen für vielfältige Bedürfnisse",
         "TEXT": [
-          "Ich erstelle ansprechende Visuals, einschließlich Illustrationen und Animationen, die Aufmerksamkeit erregen, Ihre Botschaft einprägsam kommunizieren und in sozialen Medien, Websites und Marketingkampagnen Ergebnisse erzielen. Ich liefere diese qualitativ hochwertige Arbeit effizient und termingerecht und halte mich dabei an Ihr Budget."
+          "Ich kann Ihnen helfen, ein überzeugendes Video zu gestalten, eine kraftvolle Idee zu illustrieren, eine kohäsive Kampagne zu entwerfen oder den visuellen Stil zu entdecken, der Ihre Markenkommunikation vereint.",
+          "Mein Ansatz verbindet auf harmonische Weise konzeptionelle Klarheit mit akribischer visueller Detailgenauigkeit.",
+          "Sie können sich auf pünktliche Lieferung, eine sorgfältige Herangehensweise an den Prozess und einen proaktiven Beitrag von Ideen verlassen, nicht nur auf die Ausführung.",
+          "Ich gehe jedes Projekt mit Ernsthaftigkeit an, aber mit einer leichten Hand: engagiert, aber ohne das Drama."
         ]
       },
       {
-        "HEADING": "Bereit zu glänzen?",
+        "HEADING": "Bereit, Ihre Vision zum Leben zu erwecken?",
         "TEXT": [
-          "Lassen Sie uns darüber sprechen, wie ich Ihnen helfen kann, Ihre Geschichte auf schöne Weise zu erzählen."
+          "Wenn Sie nach einer fesselnden Animation, einer Reihe wirkungsvoller Illustrationen oder einem sorgfältig gestalteten und durchdachten Grafikvorschlag suchen, würde ich mich freuen, von Ihnen zu hören.",
+          "Ich bin gespannt darauf, Ihre Idee anzuhören, Ihnen zu helfen, sie visuell zu gestalten, und den besten Weg für unsere Zusammenarbeit zu finden."
         ]
-      },
-      {
-        "HEADING": "",
-        "TEXT": []
-      },
-      {
-        "HEADING": "",
-        "TEXT": []
       }
     ],
     "FEATURES": [],

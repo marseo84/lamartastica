@@ -60,20 +60,20 @@ export class ProjectsComponent implements OnInit, OnDestroy, AfterViewInit {
     });
   }
 
-  ngAfterViewInit(): void {
+  // ngAfterViewInit(): void {
     // initialize swiper after view has been initialized
-    this.swiperElements.forEach((swiperEl) => {
-      const swiper = new Swiper(swiperEl.nativeElement, {
-        loop: true,
-        spaceBetween: 20,
-        speed: 800,
-        navigation: true,
-        pagination: { clickable: true },
-      });
+  //   this.swiperElements.forEach((swiperEl) => {
+  //     const swiper = new Swiper(swiperEl.nativeElement, {
+  //       loop: true,
+  //       spaceBetween: 20,
+  //       speed: 800,
+  //       navigation: true,
+  //       pagination: { clickable: true },
+  //     });
 
-      this.swiperInstances.push(swiper);
-    });
-  }
+  //     this.swiperInstances.push(swiper);
+  //   });
+  // }
 
   // ngOnChanges(changes: SimpleChanges): void {
   //   if (changes['projects'] && this.swiper) {
@@ -145,6 +145,13 @@ export class ProjectsComponent implements OnInit, OnDestroy, AfterViewInit {
           // console.log(this.projects);
         });
     }
+  }
+
+  // initialize Swiper
+  private initSwipers(): void {
+    this.destroySwipers(); // clean up old Swipers first
+
+    
   }
 
   // swiper loop

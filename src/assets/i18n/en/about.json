@@ -1,77 +1,55 @@
 {
   "HERO": {
     "TITLE": "About Me",
-    "SUBTITLE": "Hi there, my name is Marta",
+    "SUBTITLE": "Hi there, my name is Marta Tendero",
     "INTRO": [
-      " a passionate visual storyteller specializing in ",
-      "graphic design,",
-      "motion graphics,",
-      "and illustration."
+      "I am a passionate visual storyteller specializing in ",
+      "motion graphics",
+      "illustration",
+      "design"
     ]
   },
   "BODY": {
     "SECTIONS": [
       {
-        "HEADING": "Introduction: Stand Out from the Crowd",
+        "HEADING": "Drawing since I can remember",
         "TEXT": [
-          "In a world of visual noise, it's easy to get lost in the crowd. But your story deserves to be seen and heard. I'm Marta Tendero, a passionate visual storyteller specializing in graphic design, motion graphics, and illustration. I help brands like yours cut through the clutter and connect with their audience on a deeper level."
+          "This early impulse gradually evolved into my way of seeing and describing the world: through the vibrant lenses of art, thoughtful design, and engaging animation.",
+          "I honed my skills by complementing my Fine Arts background with a specialization in animation and Motion Graphics. Today, I thrive as a freelance illustrator, designer, and animator.",
+          "I'm drawn to visuals that resonate, aesthetics that communicate with clarity, and to images that weave compelling stories."
         ]
       },
       {
-        "HEADING": "My Design Philosophy: Capturing Your Essence",
+        "HEADING": "I illustrate, animate, and design",
         "TEXT": [
-          "I believe that great design is more than just aesthetics; it's about capturing the essence of your brand and translating it into visuals that resonate. My strong aesthetic sensibility and intuitive understanding of color allow me to create designs that are not only visually stunning but also emotionally engaging. From choosing the perfect hues to crafting compelling narratives, I'm passionate about bringing your vision to life."
+          "Sometimes I'm bringing static images to life, other times I'm crafting visual narratives through animation, and often I'm solving communication challenges with thoughtful design. What truly matters to me is that the final result is intentional, meticulously crafted, and conveys something authentic.",
+          "My process blends the tactile with the digital. I seamlessly integrate manual techniques with cutting-edge tools like After Effects, Illustrator, Photoshop, and Firefly to create animated or illustrated pieces that genuinely connect with your audience.",
+          "I enjoy working across diverse projects, from the cultural to the commercial: think striking book covers, engaging social media videos, and impactful graphic campaigns."
         ]
       },
       {
-        "HEADING": "Technical Expertise: The Tools I Use",
+        "HEADING": "Bridging the classic and the digital",
         "TEXT": [
-          "My toolkit includes industry-standard software like Adobe Creative Suite (After Effects, Illustrator, Photoshop) for professional projects, along with Procreate and Canva for rapid prototyping and versatile applications."
+          "A line that breathes with life, a rhythm that stirs emotion, a color that sparks a memory… I find joy in working from the subtle nuances, the intricate details.",
+          "I adapt my approach by using both traditional and digital techniques, tailoring them to each unique project, collaborative team, or core message.",
+          "Every commission is an exciting opportunity for me to build visually polished and emotionally resonant images that tell a story. If you have a narrative to share, I'm passionate about finding the perfect visual language to bring it to life."
         ]
       },
       {
-        "HEADING": "Solving Your Visual Challenges: How I Can Help",
-        "LIST": {
-          "HEADING": null,
-          "ITEMS": [
-            {
-              "KEY": "Modern Brand Identities:",
-              "DESCRIPTION": "Refreshing your visual presence to attract and engage today's customers."
-            },
-            {
-              "KEY": "Compelling Visual Narratives:",
-              "DESCRIPTION": "Telling your brand story in a way that captivates your audience and highlights your unique value."
-            },
-            {
-              "KEY": "Distinctive & Memorable Designs:",
-              "DESCRIPTION": "Creating visuals that set you apart from the competition and reinforce your brand identity."
-            },
-            {
-              "KEY": "Strategic Marketing Materials:",
-              "DESCRIPTION": "Designing assets that drive business growth and free up your time to focus on what you do best."
-            }
-          ]
-        }
-      },
-      {
-        "HEADING": "My Services: Bringing Your Vision to Life",
+        "HEADING": "Visual solutions for diverse needs",
         "TEXT": [
-          "I create engaging visuals, including illustrations and animations, that capture attention, communicate your message memorably, and drive results across social media, websites, and marketing campaigns. I deliver this high-quality work efficiently and on time, staying within your budget."
+          "I can help you shape a compelling video, illustrate a powerful idea, design a cohesive campaign, or discover the visual style that unifies your brand communication.",
+          "My approach harmoniously blends conceptual clarity with meticulous visual detail.",
+          "You can count on me for punctual delivery, a meticulous approach to the process, and a proactive contribution of ideas, not just execution. ",
+          "I approach every project with seriousness, yet with a light touch: committed, but without the drama."
         ]
       },
       {
-        "HEADING": "Ready to shine?",
+        "HEADING": "Ready to bring your vision to life?",
         "TEXT": [
-          "Let's talk about how I can help you tell your story beautifully."
+          "If you're looking for a captivating animation, a series of impactful illustrations, or a meticulously designed and thoughtfully conceived graphic proposal, I'd love to hear from you.",
+          "I'm eager to listen to your idea, help you shape it visually, and explore the best way for us to collaborate."
         ]
-      },
-      {
-        "HEADING": "",
-        "TEXT": []
-      },
-      {
-        "HEADING": "",
-        "TEXT": []
       }
     ],
     "FEATURES": [],

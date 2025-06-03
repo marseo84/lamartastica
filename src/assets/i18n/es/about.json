@@ -1,77 +1,55 @@
 {
   "HERO": {
     "TITLE": "Sobre mí",
-    "SUBTITLE": "Hola, mi nombre es Marta",
+    "SUBTITLE": "Hola, mi nombre es Marta Tendero",
     "INTRO": [
       "soy una apasionada narradora visual especializada en ",
-      "diseño gráfico,",
-      "gráficos en movimiento,",
-      "e ilustración"
+      "animación",
+      "ilustración",
+      "diseño"
     ]
   },
   "BODY": {
     "SECTIONS": [
       {
-        "HEADING": "Introducción: Destaca entre la multitud",
+        "HEADING": "Dibujando desde que tengo memoria",
         "TEXT": [
-          "En un mundo de ruido visual, es fácil perderse entre la multitud. Pero tu historia merece ser vista y escuchada. Soy Marta Tendero, una apasionada narradora visual especializada en diseño gráfico, gráficos en movimiento e ilustración. Ayudo a marcas como la tuya a abrirse paso entre el ruido y conectar con su audiencia a un nivel más profundo."
+          "Este impulso temprano evolucionó gradualmente en mi manera de ver y describir el mundo: a través de las vibrantes lentes del arte, el diseño reflexivo y la animación cautivadora.",
+          "Perfeccioné mis habilidades complementando mi formación en Bellas Artes con una especialización en animación y Motion Graphics. Hoy, prospero como ilustrador, diseñador y animador freelance.",
+          "Me atraen las imágenes que resuenan, las estéticas que comunican con claridad y las imágenes que tejen historias convincentes."
         ]
       },
       {
-        "HEADING": "Mi filosofía de diseño: Capturando tu esencia",
+        "HEADING": "Ilustro, animo y diseño",
         "TEXT": [
-          "Creo que un gran diseño es más que solo estética; se trata de capturar la esencia de tu marca y traducirla en imágenes que resuenen. Mi gran sensibilidad estética y mi comprensión intuitiva del color me permiten crear diseños que no solo son visualmente impresionantes, sino también emocionalmente atractivos. Desde elegir los tonos perfectos hasta crear narrativas convincentes, me apasiona dar vida a tu visión."
+          "A veces doy vida a imágenes estáticas, otras veces elaboro narrativas visuales a través de la animación, y a menudo resuelvo desafíos de comunicación con un diseño inteligente. Lo que realmente me importa es que el resultado final sea intencional, meticulosamente elaborado y transmita algo auténtico.",
+          "Mi proceso combina lo táctil con lo digital. Integro a la perfección técnicas manuales con herramientas de vanguardia como After Effects, Illustrator, Photoshop y Firefly para crear piezas animadas o ilustradas que conecten genuinamente con tu audiencia.",
+          "Disfruto trabajando en proyectos diversos, desde lo cultural hasta lo comercial: piensa en portadas de libros impactantes, atractivos videos para redes sociales y campañas gráficas influyentes."
         ]
       },
       {
-        "HEADING": "Experiencia técnica: Las herramientas que utilizo",
+        "HEADING": "Uniendo lo clásico y lo digital",
         "TEXT": [
-          "Mi conjunto de herramientas incluye software estándar de la industria como Adobe Creative Suite (After Effects, Illustrator, Photoshop) para proyectos profesionales, junto con Procreate y Canva para prototipos rápidos y aplicaciones versátiles."
+          "Una línea que respira vida, un ritmo que despierta emoción, un color que enciende un recuerdo… Encuentro alegría en trabajar a partir de los matices sutiles, los detalles intrincados.",
+          "Adapto mi enfoque utilizando tanto técnicas tradicionales como digitales, personalizándolas para cada proyecto único, equipo de colaboración o mensaje central.",
+          "Cada encargo es una oportunidad emocionante para mí de construir imágenes visualmente pulidas y emocionalmente resonantes que cuentan una historia. Si tienes una narrativa que compartir, me apasiona encontrar el lenguaje visual perfecto para darle vida."
         ]
       },
       {
-        "HEADING": "Resolviendo tus desafíos visuales: Cómo puedo ayudar",
-        "LIST": {
-          "HEADING": null,
-          "ITEMS": [
-            {
-              "KEY": "Identidades de marca modernas:",
-              "DESCRIPTION": "Refrescando tu presencia visual para atraer e involucrar a los clientes de hoy."
-            },
-            {
-              "KEY": "Narrativas visuales convincentes:",
-              "DESCRIPTION": "Contar la historia de tu marca de una manera que cautive a tu audiencia y resalte tu valor único."
-            },
-            {
-              "KEY": "Diseños distintivos y memorables:",
-              "DESCRIPTION": "Crear imágenes que te diferencien de la competencia y refuercen la identidad de tu marca."
-            },
-            {
-              "KEY": "Materiales de marketing estratégicos:",
-              "DESCRIPTION": "Diseñar activos que impulsen el crecimiento empresarial y liberen tu tiempo para que te concentres en lo que mejor sabes hacer."
-            }
-          ]
-        }
-      },
-      {
-        "HEADING": "Mis servicios: Dando vida a tu visión",
+        "HEADING": "Soluciones visuales para diversas necesidades",
         "TEXT": [
-          "Creo imágenes atractivas, incluidas ilustraciones y animaciones, que captan la atención, comunican tu mensaje de manera memorable e impulsan resultados en las redes sociales, sitios web y campañas de marketing. Entrego este trabajo de alta calidad de manera eficiente y a tiempo, manteniéndome dentro de tu presupuesto."
+          "Puedo ayudarte a dar forma a un video convincente, ilustrar una idea poderosa, diseñar una campaña coherente o descubrir el estilo visual que unifica la comunicación de tu marca.",
+          "Mi enfoque combina armoniosamente la claridad conceptual con el detalle visual meticuloso.",
+          "Puedes contar conmigo para una entrega puntual, un enfoque meticuloso del proceso y una contribución proactiva de ideas, no solo ejecución.",
+          "Abordo cada proyecto con seriedad, pero con un toque ligero: comprometido, pero sin el drama."
         ]
       },
       {
-        "HEADING": "¿Listo para brillar?",
+        "HEADING": "¿Listo para dar vida a tu visión?",
         "TEXT": [
-          "Hablemos sobre cómo puedo ayudarte a contar tu historia de manera hermosa."
+          "Si buscas una animación cautivadora, una serie de ilustraciones impactantes o una propuesta gráfica meticulosamente diseñada y cuidadosamente concebida, me encantaría saber de ti.",
+          "Estoy deseando escuchar tu idea, ayudarte a darle forma visualmente y explorar la mejor manera de colaborar."
         ]
-      },
-      {
-        "HEADING": "",
-        "TEXT": []
-      },
-      {
-        "HEADING": "",
-        "TEXT": []
       }
     ],
     "FEATURES": [],
